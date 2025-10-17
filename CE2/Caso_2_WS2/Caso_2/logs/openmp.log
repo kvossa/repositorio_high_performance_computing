@@ -1,0 +1,960 @@
+openmp_bt size=200 threads=1 iter=1 -> 0.00 s
+openmp_blocked size=200 threads=1 bs=128 iter=1 -> 0.00 s
+openmp_bt size=200 threads=1 iter=2 -> 0.00 s
+openmp_blocked size=200 threads=1 bs=128 iter=2 -> 0.00 s
+openmp_bt size=200 threads=1 iter=3 -> 0.00 s
+openmp_blocked size=200 threads=1 bs=128 iter=3 -> 0.00 s
+openmp_bt size=200 threads=1 iter=4 -> 0.00 s
+openmp_blocked size=200 threads=1 bs=128 iter=4 -> 0.00 s
+openmp_bt size=200 threads=1 iter=5 -> 0.00 s
+openmp_blocked size=200 threads=1 bs=128 iter=5 -> 0.00 s
+openmp_bt size=200 threads=1 iter=6 -> 0.00 s
+openmp_blocked size=200 threads=1 bs=128 iter=6 -> 0.00 s
+openmp_bt size=200 threads=1 iter=7 -> 0.00 s
+openmp_blocked size=200 threads=1 bs=128 iter=7 -> 0.00 s
+openmp_bt size=200 threads=1 iter=8 -> 0.00 s
+openmp_blocked size=200 threads=1 bs=128 iter=8 -> 0.00 s
+openmp_bt size=200 threads=1 iter=9 -> 0.00 s
+openmp_blocked size=200 threads=1 bs=128 iter=9 -> 0.00 s
+openmp_bt size=200 threads=1 iter=10 -> 0.00 s
+openmp_blocked size=200 threads=1 bs=128 iter=10 -> 0.00 s
+openmp_bt size=200 threads=2 iter=1 -> 0.00 s
+openmp_blocked size=200 threads=2 bs=128 iter=1 -> 0.00 s
+openmp_bt size=200 threads=2 iter=2 -> 0.00 s
+openmp_blocked size=200 threads=2 bs=128 iter=2 -> 0.00 s
+openmp_bt size=200 threads=2 iter=3 -> 0.00 s
+openmp_blocked size=200 threads=2 bs=128 iter=3 -> 0.00 s
+openmp_bt size=200 threads=2 iter=4 -> 0.00 s
+openmp_blocked size=200 threads=2 bs=128 iter=4 -> 0.00 s
+openmp_bt size=200 threads=2 iter=5 -> 0.00 s
+openmp_blocked size=200 threads=2 bs=128 iter=5 -> 0.00 s
+openmp_bt size=200 threads=2 iter=6 -> 0.00 s
+openmp_blocked size=200 threads=2 bs=128 iter=6 -> 0.00 s
+openmp_bt size=200 threads=2 iter=7 -> 0.00 s
+openmp_blocked size=200 threads=2 bs=128 iter=7 -> 0.00 s
+openmp_bt size=200 threads=2 iter=8 -> 0.00 s
+openmp_blocked size=200 threads=2 bs=128 iter=8 -> 0.00 s
+openmp_bt size=200 threads=2 iter=9 -> 0.00 s
+openmp_blocked size=200 threads=2 bs=128 iter=9 -> 0.00 s
+openmp_bt size=200 threads=2 iter=10 -> 0.00 s
+openmp_blocked size=200 threads=2 bs=128 iter=10 -> 0.00 s
+openmp_bt size=200 threads=4 iter=1 -> 0.00 s
+openmp_blocked size=200 threads=4 bs=128 iter=1 -> 0.00 s
+openmp_bt size=200 threads=4 iter=2 -> 0.00 s
+openmp_blocked size=200 threads=4 bs=128 iter=2 -> 0.00 s
+openmp_bt size=200 threads=4 iter=3 -> 0.00 s
+openmp_blocked size=200 threads=4 bs=128 iter=3 -> 0.00 s
+openmp_bt size=200 threads=4 iter=4 -> 0.00 s
+openmp_blocked size=200 threads=4 bs=128 iter=4 -> 0.00 s
+openmp_bt size=200 threads=4 iter=5 -> 0.00 s
+openmp_blocked size=200 threads=4 bs=128 iter=5 -> 0.00 s
+openmp_bt size=200 threads=4 iter=6 -> 0.00 s
+openmp_blocked size=200 threads=4 bs=128 iter=6 -> 0.00 s
+openmp_bt size=200 threads=4 iter=7 -> 0.00 s
+openmp_blocked size=200 threads=4 bs=128 iter=7 -> 0.00 s
+openmp_bt size=200 threads=4 iter=8 -> 0.00 s
+openmp_blocked size=200 threads=4 bs=128 iter=8 -> 0.00 s
+openmp_bt size=200 threads=4 iter=9 -> 0.00 s
+openmp_blocked size=200 threads=4 bs=128 iter=9 -> 0.00 s
+openmp_bt size=200 threads=4 iter=10 -> 0.00 s
+openmp_blocked size=200 threads=4 bs=128 iter=10 -> 0.00 s
+openmp_bt size=200 threads=8 iter=1 -> 0.00 s
+openmp_blocked size=200 threads=8 bs=128 iter=1 -> 0.00 s
+openmp_bt size=200 threads=8 iter=2 -> 0.00 s
+openmp_blocked size=200 threads=8 bs=128 iter=2 -> 0.00 s
+openmp_bt size=200 threads=8 iter=3 -> 0.00 s
+openmp_blocked size=200 threads=8 bs=128 iter=3 -> 0.00 s
+openmp_bt size=200 threads=8 iter=4 -> 0.00 s
+openmp_blocked size=200 threads=8 bs=128 iter=4 -> 0.00 s
+openmp_bt size=200 threads=8 iter=5 -> 0.00 s
+openmp_blocked size=200 threads=8 bs=128 iter=5 -> 0.00 s
+openmp_bt size=200 threads=8 iter=6 -> 0.00 s
+openmp_blocked size=200 threads=8 bs=128 iter=6 -> 0.00 s
+openmp_bt size=200 threads=8 iter=7 -> 0.00 s
+openmp_blocked size=200 threads=8 bs=128 iter=7 -> 0.00 s
+openmp_bt size=200 threads=8 iter=8 -> 0.00 s
+openmp_blocked size=200 threads=8 bs=128 iter=8 -> 0.00 s
+openmp_bt size=200 threads=8 iter=9 -> 0.00 s
+openmp_blocked size=200 threads=8 bs=128 iter=9 -> 0.00 s
+openmp_bt size=200 threads=8 iter=10 -> 0.00 s
+openmp_blocked size=200 threads=8 bs=128 iter=10 -> 0.00 s
+openmp_bt size=200 threads=16 iter=1 -> 0.00 s
+openmp_blocked size=200 threads=16 bs=128 iter=1 -> 0.00 s
+openmp_bt size=200 threads=16 iter=2 -> 0.00 s
+openmp_blocked size=200 threads=16 bs=128 iter=2 -> 0.00 s
+openmp_bt size=200 threads=16 iter=3 -> 0.00 s
+openmp_blocked size=200 threads=16 bs=128 iter=3 -> 0.00 s
+openmp_bt size=200 threads=16 iter=4 -> 0.00 s
+openmp_blocked size=200 threads=16 bs=128 iter=4 -> 0.00 s
+openmp_bt size=200 threads=16 iter=5 -> 0.00 s
+openmp_blocked size=200 threads=16 bs=128 iter=5 -> 0.00 s
+openmp_bt size=200 threads=16 iter=6 -> 0.00 s
+openmp_blocked size=200 threads=16 bs=128 iter=6 -> 0.00 s
+openmp_bt size=200 threads=16 iter=7 -> 0.00 s
+openmp_blocked size=200 threads=16 bs=128 iter=7 -> 0.00 s
+openmp_bt size=200 threads=16 iter=8 -> 0.00 s
+openmp_blocked size=200 threads=16 bs=128 iter=8 -> 0.00 s
+openmp_bt size=200 threads=16 iter=9 -> 0.00 s
+openmp_blocked size=200 threads=16 bs=128 iter=9 -> 0.00 s
+openmp_bt size=200 threads=16 iter=10 -> 0.00 s
+openmp_blocked size=200 threads=16 bs=128 iter=10 -> 0.00 s
+openmp_bt size=200 threads=32 iter=1 -> 0.01 s
+openmp_blocked size=200 threads=32 bs=128 iter=1 -> 0.01 s
+openmp_bt size=200 threads=32 iter=2 -> 0.01 s
+openmp_blocked size=200 threads=32 bs=128 iter=2 -> 0.01 s
+openmp_bt size=200 threads=32 iter=3 -> 0.00 s
+openmp_blocked size=200 threads=32 bs=128 iter=3 -> 0.01 s
+openmp_bt size=200 threads=32 iter=4 -> 0.00 s
+openmp_blocked size=200 threads=32 bs=128 iter=4 -> 0.01 s
+openmp_bt size=200 threads=32 iter=5 -> 0.01 s
+openmp_blocked size=200 threads=32 bs=128 iter=5 -> 0.01 s
+openmp_bt size=200 threads=32 iter=6 -> 0.01 s
+openmp_blocked size=200 threads=32 bs=128 iter=6 -> 0.01 s
+openmp_bt size=200 threads=32 iter=7 -> 0.00 s
+openmp_blocked size=200 threads=32 bs=128 iter=7 -> 0.01 s
+openmp_bt size=200 threads=32 iter=8 -> 0.00 s
+openmp_blocked size=200 threads=32 bs=128 iter=8 -> 0.01 s
+openmp_bt size=200 threads=32 iter=9 -> 0.01 s
+openmp_blocked size=200 threads=32 bs=128 iter=9 -> 0.01 s
+openmp_bt size=200 threads=32 iter=10 -> 0.01 s
+openmp_blocked size=200 threads=32 bs=128 iter=10 -> 0.01 s
+openmp_bt size=400 threads=1 iter=1 -> 0.01 s
+openmp_blocked size=400 threads=1 bs=128 iter=1 -> 0.01 s
+openmp_bt size=400 threads=1 iter=2 -> 0.01 s
+openmp_blocked size=400 threads=1 bs=128 iter=2 -> 0.01 s
+openmp_bt size=400 threads=1 iter=3 -> 0.01 s
+openmp_blocked size=400 threads=1 bs=128 iter=3 -> 0.01 s
+openmp_bt size=400 threads=1 iter=4 -> 0.01 s
+openmp_blocked size=400 threads=1 bs=128 iter=4 -> 0.01 s
+openmp_bt size=400 threads=1 iter=5 -> 0.01 s
+openmp_blocked size=400 threads=1 bs=128 iter=5 -> 0.01 s
+openmp_bt size=400 threads=1 iter=6 -> 0.02 s
+openmp_blocked size=400 threads=1 bs=128 iter=6 -> 0.01 s
+openmp_bt size=400 threads=1 iter=7 -> 0.01 s
+openmp_blocked size=400 threads=1 bs=128 iter=7 -> 0.01 s
+openmp_bt size=400 threads=1 iter=8 -> 0.01 s
+openmp_blocked size=400 threads=1 bs=128 iter=8 -> 0.01 s
+openmp_bt size=400 threads=1 iter=9 -> 0.01 s
+openmp_blocked size=400 threads=1 bs=128 iter=9 -> 0.01 s
+openmp_bt size=400 threads=1 iter=10 -> 0.01 s
+openmp_blocked size=400 threads=1 bs=128 iter=10 -> 0.01 s
+openmp_bt size=400 threads=2 iter=1 -> 0.01 s
+openmp_blocked size=400 threads=2 bs=128 iter=1 -> 0.01 s
+openmp_bt size=400 threads=2 iter=2 -> 0.01 s
+openmp_blocked size=400 threads=2 bs=128 iter=2 -> 0.01 s
+openmp_bt size=400 threads=2 iter=3 -> 0.01 s
+openmp_blocked size=400 threads=2 bs=128 iter=3 -> 0.01 s
+openmp_bt size=400 threads=2 iter=4 -> 0.01 s
+openmp_blocked size=400 threads=2 bs=128 iter=4 -> 0.01 s
+openmp_bt size=400 threads=2 iter=5 -> 0.01 s
+openmp_blocked size=400 threads=2 bs=128 iter=5 -> 0.01 s
+openmp_bt size=400 threads=2 iter=6 -> 0.01 s
+openmp_blocked size=400 threads=2 bs=128 iter=6 -> 0.01 s
+openmp_bt size=400 threads=2 iter=7 -> 0.01 s
+openmp_blocked size=400 threads=2 bs=128 iter=7 -> 0.01 s
+openmp_bt size=400 threads=2 iter=8 -> 0.01 s
+openmp_blocked size=400 threads=2 bs=128 iter=8 -> 0.01 s
+openmp_bt size=400 threads=2 iter=9 -> 0.01 s
+openmp_blocked size=400 threads=2 bs=128 iter=9 -> 0.01 s
+openmp_bt size=400 threads=2 iter=10 -> 0.01 s
+openmp_blocked size=400 threads=2 bs=128 iter=10 -> 0.01 s
+openmp_bt size=400 threads=4 iter=1 -> 0.01 s
+openmp_blocked size=400 threads=4 bs=128 iter=1 -> 0.01 s
+openmp_bt size=400 threads=4 iter=2 -> 0.01 s
+openmp_blocked size=400 threads=4 bs=128 iter=2 -> 0.01 s
+openmp_bt size=400 threads=4 iter=3 -> 0.01 s
+openmp_blocked size=400 threads=4 bs=128 iter=3 -> 0.01 s
+openmp_bt size=400 threads=4 iter=4 -> 0.01 s
+openmp_blocked size=400 threads=4 bs=128 iter=4 -> 0.01 s
+openmp_bt size=400 threads=4 iter=5 -> 0.01 s
+openmp_blocked size=400 threads=4 bs=128 iter=5 -> 0.01 s
+openmp_bt size=400 threads=4 iter=6 -> 0.01 s
+openmp_blocked size=400 threads=4 bs=128 iter=6 -> 0.01 s
+openmp_bt size=400 threads=4 iter=7 -> 0.01 s
+openmp_blocked size=400 threads=4 bs=128 iter=7 -> 0.01 s
+openmp_bt size=400 threads=4 iter=8 -> 0.01 s
+openmp_blocked size=400 threads=4 bs=128 iter=8 -> 0.01 s
+openmp_bt size=400 threads=4 iter=9 -> 0.01 s
+openmp_blocked size=400 threads=4 bs=128 iter=9 -> 0.01 s
+openmp_bt size=400 threads=4 iter=10 -> 0.01 s
+openmp_blocked size=400 threads=4 bs=128 iter=10 -> 0.01 s
+openmp_bt size=400 threads=8 iter=1 -> 0.01 s
+openmp_blocked size=400 threads=8 bs=128 iter=1 -> 0.01 s
+openmp_bt size=400 threads=8 iter=2 -> 0.01 s
+openmp_blocked size=400 threads=8 bs=128 iter=2 -> 0.01 s
+openmp_bt size=400 threads=8 iter=3 -> 0.01 s
+openmp_blocked size=400 threads=8 bs=128 iter=3 -> 0.01 s
+openmp_bt size=400 threads=8 iter=4 -> 0.01 s
+openmp_blocked size=400 threads=8 bs=128 iter=4 -> 0.01 s
+openmp_bt size=400 threads=8 iter=5 -> 0.01 s
+openmp_blocked size=400 threads=8 bs=128 iter=5 -> 0.01 s
+openmp_bt size=400 threads=8 iter=6 -> 0.01 s
+openmp_blocked size=400 threads=8 bs=128 iter=6 -> 0.01 s
+openmp_bt size=400 threads=8 iter=7 -> 0.01 s
+openmp_blocked size=400 threads=8 bs=128 iter=7 -> 0.01 s
+openmp_bt size=400 threads=8 iter=8 -> 0.01 s
+openmp_blocked size=400 threads=8 bs=128 iter=8 -> 0.01 s
+openmp_bt size=400 threads=8 iter=9 -> 0.01 s
+openmp_blocked size=400 threads=8 bs=128 iter=9 -> 0.01 s
+openmp_bt size=400 threads=8 iter=10 -> 0.01 s
+openmp_blocked size=400 threads=8 bs=128 iter=10 -> 0.01 s
+openmp_bt size=400 threads=16 iter=1 -> 0.01 s
+openmp_blocked size=400 threads=16 bs=128 iter=1 -> 0.01 s
+openmp_bt size=400 threads=16 iter=2 -> 0.01 s
+openmp_blocked size=400 threads=16 bs=128 iter=2 -> 0.01 s
+openmp_bt size=400 threads=16 iter=3 -> 0.01 s
+openmp_blocked size=400 threads=16 bs=128 iter=3 -> 0.01 s
+openmp_bt size=400 threads=16 iter=4 -> 0.01 s
+openmp_blocked size=400 threads=16 bs=128 iter=4 -> 0.01 s
+openmp_bt size=400 threads=16 iter=5 -> 0.01 s
+openmp_blocked size=400 threads=16 bs=128 iter=5 -> 0.01 s
+openmp_bt size=400 threads=16 iter=6 -> 0.01 s
+openmp_blocked size=400 threads=16 bs=128 iter=6 -> 0.01 s
+openmp_bt size=400 threads=16 iter=7 -> 0.01 s
+openmp_blocked size=400 threads=16 bs=128 iter=7 -> 0.01 s
+openmp_bt size=400 threads=16 iter=8 -> 0.01 s
+openmp_blocked size=400 threads=16 bs=128 iter=8 -> 0.01 s
+openmp_bt size=400 threads=16 iter=9 -> 0.01 s
+openmp_blocked size=400 threads=16 bs=128 iter=9 -> 0.01 s
+openmp_bt size=400 threads=16 iter=10 -> 0.01 s
+openmp_blocked size=400 threads=16 bs=128 iter=10 -> 0.01 s
+openmp_bt size=400 threads=32 iter=1 -> 0.02 s
+openmp_blocked size=400 threads=32 bs=128 iter=1 -> 0.01 s
+openmp_bt size=400 threads=32 iter=2 -> 0.01 s
+openmp_blocked size=400 threads=32 bs=128 iter=2 -> 0.01 s
+openmp_bt size=400 threads=32 iter=3 -> 0.01 s
+openmp_blocked size=400 threads=32 bs=128 iter=3 -> 0.01 s
+openmp_bt size=400 threads=32 iter=4 -> 0.01 s
+openmp_blocked size=400 threads=32 bs=128 iter=4 -> 0.01 s
+openmp_bt size=400 threads=32 iter=5 -> 0.01 s
+openmp_blocked size=400 threads=32 bs=128 iter=5 -> 0.01 s
+openmp_bt size=400 threads=32 iter=6 -> 0.01 s
+openmp_blocked size=400 threads=32 bs=128 iter=6 -> 0.01 s
+openmp_bt size=400 threads=32 iter=7 -> 0.01 s
+openmp_blocked size=400 threads=32 bs=128 iter=7 -> 0.01 s
+openmp_bt size=400 threads=32 iter=8 -> 0.01 s
+openmp_blocked size=400 threads=32 bs=128 iter=8 -> 0.02 s
+openmp_bt size=400 threads=32 iter=9 -> 0.01 s
+openmp_blocked size=400 threads=32 bs=128 iter=9 -> 0.01 s
+openmp_bt size=400 threads=32 iter=10 -> 0.01 s
+openmp_blocked size=400 threads=32 bs=128 iter=10 -> 0.02 s
+openmp_bt size=800 threads=1 iter=1 -> 0.09 s
+openmp_blocked size=800 threads=1 bs=128 iter=1 -> 0.08 s
+openmp_bt size=800 threads=1 iter=2 -> 0.09 s
+openmp_blocked size=800 threads=1 bs=128 iter=2 -> 0.08 s
+openmp_bt size=800 threads=1 iter=3 -> 0.09 s
+openmp_blocked size=800 threads=1 bs=128 iter=3 -> 0.08 s
+openmp_bt size=800 threads=1 iter=4 -> 0.08 s
+openmp_blocked size=800 threads=1 bs=128 iter=4 -> 0.08 s
+openmp_bt size=800 threads=1 iter=5 -> 0.08 s
+openmp_blocked size=800 threads=1 bs=128 iter=5 -> 0.08 s
+openmp_bt size=800 threads=1 iter=6 -> 0.08 s
+openmp_blocked size=800 threads=1 bs=128 iter=6 -> 0.08 s
+openmp_bt size=800 threads=1 iter=7 -> 0.08 s
+openmp_blocked size=800 threads=1 bs=128 iter=7 -> 0.08 s
+openmp_bt size=800 threads=1 iter=8 -> 0.08 s
+openmp_blocked size=800 threads=1 bs=128 iter=8 -> 0.08 s
+openmp_bt size=800 threads=1 iter=9 -> 0.08 s
+openmp_blocked size=800 threads=1 bs=128 iter=9 -> 0.08 s
+openmp_bt size=800 threads=1 iter=10 -> 0.08 s
+openmp_blocked size=800 threads=1 bs=128 iter=10 -> 0.08 s
+openmp_bt size=800 threads=2 iter=1 -> 0.06 s
+openmp_blocked size=800 threads=2 bs=128 iter=1 -> 0.06 s
+openmp_bt size=800 threads=2 iter=2 -> 0.06 s
+openmp_blocked size=800 threads=2 bs=128 iter=2 -> 0.06 s
+openmp_bt size=800 threads=2 iter=3 -> 0.06 s
+openmp_blocked size=800 threads=2 bs=128 iter=3 -> 0.06 s
+openmp_bt size=800 threads=2 iter=4 -> 0.06 s
+openmp_blocked size=800 threads=2 bs=128 iter=4 -> 0.06 s
+openmp_bt size=800 threads=2 iter=5 -> 0.05 s
+openmp_blocked size=800 threads=2 bs=128 iter=5 -> 0.06 s
+openmp_bt size=800 threads=2 iter=6 -> 0.07 s
+openmp_blocked size=800 threads=2 bs=128 iter=6 -> 0.06 s
+openmp_bt size=800 threads=2 iter=7 -> 0.05 s
+openmp_blocked size=800 threads=2 bs=128 iter=7 -> 0.06 s
+openmp_bt size=800 threads=2 iter=8 -> 0.05 s
+openmp_blocked size=800 threads=2 bs=128 iter=8 -> 0.06 s
+openmp_bt size=800 threads=2 iter=9 -> 0.06 s
+openmp_blocked size=800 threads=2 bs=128 iter=9 -> 0.05 s
+openmp_bt size=800 threads=2 iter=10 -> 0.05 s
+openmp_blocked size=800 threads=2 bs=128 iter=10 -> 0.06 s
+openmp_bt size=800 threads=4 iter=1 -> 0.06 s
+openmp_blocked size=800 threads=4 bs=128 iter=1 -> 0.04 s
+openmp_bt size=800 threads=4 iter=2 -> 0.05 s
+openmp_blocked size=800 threads=4 bs=128 iter=2 -> 0.04 s
+openmp_bt size=800 threads=4 iter=3 -> 0.05 s
+openmp_blocked size=800 threads=4 bs=128 iter=3 -> 0.04 s
+openmp_bt size=800 threads=4 iter=4 -> 0.04 s
+openmp_blocked size=800 threads=4 bs=128 iter=4 -> 0.05 s
+openmp_bt size=800 threads=4 iter=5 -> 0.05 s
+openmp_blocked size=800 threads=4 bs=128 iter=5 -> 0.05 s
+openmp_bt size=800 threads=4 iter=6 -> 0.05 s
+openmp_blocked size=800 threads=4 bs=128 iter=6 -> 0.05 s
+openmp_bt size=800 threads=4 iter=7 -> 0.05 s
+openmp_blocked size=800 threads=4 bs=128 iter=7 -> 0.05 s
+openmp_bt size=800 threads=4 iter=8 -> 0.04 s
+openmp_blocked size=800 threads=4 bs=128 iter=8 -> 0.05 s
+openmp_bt size=800 threads=4 iter=9 -> 0.04 s
+openmp_blocked size=800 threads=4 bs=128 iter=9 -> 0.05 s
+openmp_bt size=800 threads=4 iter=10 -> 0.05 s
+openmp_blocked size=800 threads=4 bs=128 iter=10 -> 0.04 s
+openmp_bt size=800 threads=8 iter=1 -> 0.04 s
+openmp_blocked size=800 threads=8 bs=128 iter=1 -> 0.05 s
+openmp_bt size=800 threads=8 iter=2 -> 0.04 s
+openmp_blocked size=800 threads=8 bs=128 iter=2 -> 0.04 s
+openmp_bt size=800 threads=8 iter=3 -> 0.05 s
+openmp_blocked size=800 threads=8 bs=128 iter=3 -> 0.05 s
+openmp_bt size=800 threads=8 iter=4 -> 0.04 s
+openmp_blocked size=800 threads=8 bs=128 iter=4 -> 0.05 s
+openmp_bt size=800 threads=8 iter=5 -> 0.04 s
+openmp_blocked size=800 threads=8 bs=128 iter=5 -> 0.05 s
+openmp_bt size=800 threads=8 iter=6 -> 0.04 s
+openmp_blocked size=800 threads=8 bs=128 iter=6 -> 0.04 s
+openmp_bt size=800 threads=8 iter=7 -> 0.04 s
+openmp_blocked size=800 threads=8 bs=128 iter=7 -> 0.05 s
+openmp_bt size=800 threads=8 iter=8 -> 0.04 s
+openmp_blocked size=800 threads=8 bs=128 iter=8 -> 0.05 s
+openmp_bt size=800 threads=8 iter=9 -> 0.05 s
+openmp_blocked size=800 threads=8 bs=128 iter=9 -> 0.04 s
+openmp_bt size=800 threads=8 iter=10 -> 0.04 s
+openmp_blocked size=800 threads=8 bs=128 iter=10 -> 0.05 s
+openmp_bt size=800 threads=16 iter=1 -> 0.04 s
+openmp_blocked size=800 threads=16 bs=128 iter=1 -> 0.05 s
+openmp_bt size=800 threads=16 iter=2 -> 0.04 s
+openmp_blocked size=800 threads=16 bs=128 iter=2 -> 0.04 s
+openmp_bt size=800 threads=16 iter=3 -> 0.04 s
+openmp_blocked size=800 threads=16 bs=128 iter=3 -> 0.05 s
+openmp_bt size=800 threads=16 iter=4 -> 0.05 s
+openmp_blocked size=800 threads=16 bs=128 iter=4 -> 0.05 s
+openmp_bt size=800 threads=16 iter=5 -> 0.04 s
+openmp_blocked size=800 threads=16 bs=128 iter=5 -> 0.05 s
+openmp_bt size=800 threads=16 iter=6 -> 0.04 s
+openmp_blocked size=800 threads=16 bs=128 iter=6 -> 0.05 s
+openmp_bt size=800 threads=16 iter=7 -> 0.04 s
+openmp_blocked size=800 threads=16 bs=128 iter=7 -> 0.05 s
+openmp_bt size=800 threads=16 iter=8 -> 0.04 s
+openmp_blocked size=800 threads=16 bs=128 iter=8 -> 0.05 s
+openmp_bt size=800 threads=16 iter=9 -> 0.04 s
+openmp_blocked size=800 threads=16 bs=128 iter=9 -> 0.05 s
+openmp_bt size=800 threads=16 iter=10 -> 0.04 s
+openmp_blocked size=800 threads=16 bs=128 iter=10 -> 0.05 s
+openmp_bt size=800 threads=32 iter=1 -> 0.04 s
+openmp_blocked size=800 threads=32 bs=128 iter=1 -> 0.05 s
+openmp_bt size=800 threads=32 iter=2 -> 0.04 s
+openmp_blocked size=800 threads=32 bs=128 iter=2 -> 0.05 s
+openmp_bt size=800 threads=32 iter=3 -> 0.04 s
+openmp_blocked size=800 threads=32 bs=128 iter=3 -> 0.05 s
+openmp_bt size=800 threads=32 iter=4 -> 0.05 s
+openmp_blocked size=800 threads=32 bs=128 iter=4 -> 0.06 s
+openmp_bt size=800 threads=32 iter=5 -> 0.05 s
+openmp_blocked size=800 threads=32 bs=128 iter=5 -> 0.05 s
+openmp_bt size=800 threads=32 iter=6 -> 0.05 s
+openmp_blocked size=800 threads=32 bs=128 iter=6 -> 0.05 s
+openmp_bt size=800 threads=32 iter=7 -> 0.05 s
+openmp_blocked size=800 threads=32 bs=128 iter=7 -> 0.05 s
+openmp_bt size=800 threads=32 iter=8 -> 0.05 s
+openmp_blocked size=800 threads=32 bs=128 iter=8 -> 0.05 s
+openmp_bt size=800 threads=32 iter=9 -> 0.05 s
+openmp_blocked size=800 threads=32 bs=128 iter=9 -> 0.05 s
+openmp_bt size=800 threads=32 iter=10 -> 0.05 s
+openmp_blocked size=800 threads=32 bs=128 iter=10 -> 0.05 s
+openmp_bt size=1200 threads=1 iter=1 -> 0.44 s
+openmp_blocked size=1200 threads=1 bs=128 iter=1 -> 0.25 s
+openmp_bt size=1200 threads=1 iter=2 -> 0.36 s
+openmp_blocked size=1200 threads=1 bs=128 iter=2 -> 0.24 s
+openmp_bt size=1200 threads=1 iter=3 -> 0.33 s
+openmp_blocked size=1200 threads=1 bs=128 iter=3 -> 0.24 s
+openmp_bt size=1200 threads=1 iter=4 -> 0.34 s
+openmp_blocked size=1200 threads=1 bs=128 iter=4 -> 0.25 s
+openmp_bt size=1200 threads=1 iter=5 -> 0.36 s
+openmp_blocked size=1200 threads=1 bs=128 iter=5 -> 0.24 s
+openmp_bt size=1200 threads=1 iter=6 -> 0.35 s
+openmp_blocked size=1200 threads=1 bs=128 iter=6 -> 0.24 s
+openmp_bt size=1200 threads=1 iter=7 -> 0.36 s
+openmp_blocked size=1200 threads=1 bs=128 iter=7 -> 0.24 s
+openmp_bt size=1200 threads=1 iter=8 -> 0.35 s
+openmp_blocked size=1200 threads=1 bs=128 iter=8 -> 0.24 s
+openmp_bt size=1200 threads=1 iter=9 -> 0.39 s
+openmp_blocked size=1200 threads=1 bs=128 iter=9 -> 0.24 s
+openmp_bt size=1200 threads=1 iter=10 -> 0.37 s
+openmp_blocked size=1200 threads=1 bs=128 iter=10 -> 0.24 s
+openmp_bt size=1200 threads=2 iter=1 -> 0.25 s
+openmp_blocked size=1200 threads=2 bs=128 iter=1 -> 0.16 s
+openmp_bt size=1200 threads=2 iter=2 -> 0.22 s
+openmp_blocked size=1200 threads=2 bs=128 iter=2 -> 0.16 s
+openmp_bt size=1200 threads=2 iter=3 -> 0.24 s
+openmp_blocked size=1200 threads=2 bs=128 iter=3 -> 0.16 s
+openmp_bt size=1200 threads=2 iter=4 -> 0.21 s
+openmp_blocked size=1200 threads=2 bs=128 iter=4 -> 0.16 s
+openmp_bt size=1200 threads=2 iter=5 -> 0.25 s
+openmp_blocked size=1200 threads=2 bs=128 iter=5 -> 0.19 s
+openmp_bt size=1200 threads=2 iter=6 -> 0.24 s
+openmp_blocked size=1200 threads=2 bs=128 iter=6 -> 0.17 s
+openmp_bt size=1200 threads=2 iter=7 -> 0.25 s
+openmp_blocked size=1200 threads=2 bs=128 iter=7 -> 0.21 s
+openmp_bt size=1200 threads=2 iter=8 -> 0.41 s
+openmp_blocked size=1200 threads=2 bs=128 iter=8 -> 0.19 s
+openmp_bt size=1200 threads=2 iter=9 -> 0.30 s
+openmp_blocked size=1200 threads=2 bs=128 iter=9 -> 0.18 s
+openmp_bt size=1200 threads=2 iter=10 -> 0.35 s
+openmp_blocked size=1200 threads=2 bs=128 iter=10 -> 0.18 s
+openmp_bt size=1200 threads=4 iter=1 -> 0.17 s
+openmp_blocked size=1200 threads=4 bs=128 iter=1 -> 0.12 s
+openmp_bt size=1200 threads=4 iter=2 -> 0.20 s
+openmp_blocked size=1200 threads=4 bs=128 iter=2 -> 0.13 s
+openmp_bt size=1200 threads=4 iter=3 -> 0.18 s
+openmp_blocked size=1200 threads=4 bs=128 iter=3 -> 0.12 s
+openmp_bt size=1200 threads=4 iter=4 -> 0.15 s
+openmp_blocked size=1200 threads=4 bs=128 iter=4 -> 0.12 s
+openmp_bt size=1200 threads=4 iter=5 -> 0.17 s
+openmp_blocked size=1200 threads=4 bs=128 iter=5 -> 0.15 s
+openmp_bt size=1200 threads=4 iter=6 -> 0.16 s
+openmp_blocked size=1200 threads=4 bs=128 iter=6 -> 0.12 s
+openmp_bt size=1200 threads=4 iter=7 -> 0.17 s
+openmp_blocked size=1200 threads=4 bs=128 iter=7 -> 0.12 s
+openmp_bt size=1200 threads=4 iter=8 -> 0.17 s
+openmp_blocked size=1200 threads=4 bs=128 iter=8 -> 0.12 s
+openmp_bt size=1200 threads=4 iter=9 -> 0.18 s
+openmp_blocked size=1200 threads=4 bs=128 iter=9 -> 0.15 s
+openmp_bt size=1200 threads=4 iter=10 -> 0.15 s
+openmp_blocked size=1200 threads=4 bs=128 iter=10 -> 0.12 s
+openmp_bt size=1200 threads=8 iter=1 -> 0.13 s
+openmp_blocked size=1200 threads=8 bs=128 iter=1 -> 0.12 s
+openmp_bt size=1200 threads=8 iter=2 -> 0.14 s
+openmp_blocked size=1200 threads=8 bs=128 iter=2 -> 0.11 s
+openmp_bt size=1200 threads=8 iter=3 -> 0.14 s
+openmp_blocked size=1200 threads=8 bs=128 iter=3 -> 0.13 s
+openmp_bt size=1200 threads=8 iter=4 -> 0.14 s
+openmp_blocked size=1200 threads=8 bs=128 iter=4 -> 0.12 s
+openmp_bt size=1200 threads=8 iter=5 -> 0.14 s
+openmp_blocked size=1200 threads=8 bs=128 iter=5 -> 0.12 s
+openmp_bt size=1200 threads=8 iter=6 -> 0.15 s
+openmp_blocked size=1200 threads=8 bs=128 iter=6 -> 0.12 s
+openmp_bt size=1200 threads=8 iter=7 -> 0.14 s
+openmp_blocked size=1200 threads=8 bs=128 iter=7 -> 0.12 s
+openmp_bt size=1200 threads=8 iter=8 -> 0.13 s
+openmp_blocked size=1200 threads=8 bs=128 iter=8 -> 0.13 s
+openmp_bt size=1200 threads=8 iter=9 -> 0.14 s
+openmp_blocked size=1200 threads=8 bs=128 iter=9 -> 0.12 s
+openmp_bt size=1200 threads=8 iter=10 -> 0.14 s
+openmp_blocked size=1200 threads=8 bs=128 iter=10 -> 0.12 s
+openmp_bt size=1200 threads=16 iter=1 -> 0.12 s
+openmp_blocked size=1200 threads=16 bs=128 iter=1 -> 0.11 s
+openmp_bt size=1200 threads=16 iter=2 -> 0.13 s
+openmp_blocked size=1200 threads=16 bs=128 iter=2 -> 0.13 s
+openmp_bt size=1200 threads=16 iter=3 -> 0.13 s
+openmp_blocked size=1200 threads=16 bs=128 iter=3 -> 0.12 s
+openmp_bt size=1200 threads=16 iter=4 -> 0.13 s
+openmp_blocked size=1200 threads=16 bs=128 iter=4 -> 0.11 s
+openmp_bt size=1200 threads=16 iter=5 -> 0.12 s
+openmp_blocked size=1200 threads=16 bs=128 iter=5 -> 0.11 s
+openmp_bt size=1200 threads=16 iter=6 -> 0.12 s
+openmp_blocked size=1200 threads=16 bs=128 iter=6 -> 0.11 s
+openmp_bt size=1200 threads=16 iter=7 -> 0.14 s
+openmp_blocked size=1200 threads=16 bs=128 iter=7 -> 0.11 s
+openmp_bt size=1200 threads=16 iter=8 -> 0.12 s
+openmp_blocked size=1200 threads=16 bs=128 iter=8 -> 0.12 s
+openmp_bt size=1200 threads=16 iter=9 -> 0.12 s
+openmp_blocked size=1200 threads=16 bs=128 iter=9 -> 0.11 s
+openmp_bt size=1200 threads=16 iter=10 -> 0.12 s
+openmp_blocked size=1200 threads=16 bs=128 iter=10 -> 0.12 s
+openmp_bt size=1200 threads=32 iter=1 -> 0.12 s
+openmp_blocked size=1200 threads=32 bs=128 iter=1 -> 0.11 s
+openmp_bt size=1200 threads=32 iter=2 -> 0.12 s
+openmp_blocked size=1200 threads=32 bs=128 iter=2 -> 0.12 s
+openmp_bt size=1200 threads=32 iter=3 -> 0.12 s
+openmp_blocked size=1200 threads=32 bs=128 iter=3 -> 0.12 s
+openmp_bt size=1200 threads=32 iter=4 -> 0.12 s
+openmp_blocked size=1200 threads=32 bs=128 iter=4 -> 0.11 s
+openmp_bt size=1200 threads=32 iter=5 -> 0.15 s
+openmp_blocked size=1200 threads=32 bs=128 iter=5 -> 0.12 s
+openmp_bt size=1200 threads=32 iter=6 -> 0.12 s
+openmp_blocked size=1200 threads=32 bs=128 iter=6 -> 0.11 s
+openmp_bt size=1200 threads=32 iter=7 -> 0.12 s
+openmp_blocked size=1200 threads=32 bs=128 iter=7 -> 0.11 s
+openmp_bt size=1200 threads=32 iter=8 -> 0.12 s
+openmp_blocked size=1200 threads=32 bs=128 iter=8 -> 0.12 s
+openmp_bt size=1200 threads=32 iter=9 -> 0.13 s
+openmp_blocked size=1200 threads=32 bs=128 iter=9 -> 0.12 s
+openmp_bt size=1200 threads=32 iter=10 -> 0.12 s
+openmp_blocked size=1200 threads=32 bs=128 iter=10 -> 0.13 s
+openmp_bt size=2000 threads=1 iter=1 -> 2.81 s
+openmp_blocked size=2000 threads=1 bs=128 iter=1 -> 1.02 s
+openmp_bt size=2000 threads=1 iter=2 -> 2.69 s
+openmp_blocked size=2000 threads=1 bs=128 iter=2 -> 1.04 s
+openmp_bt size=2000 threads=1 iter=3 -> 2.69 s
+openmp_blocked size=2000 threads=1 bs=128 iter=3 -> 1.01 s
+openmp_bt size=2000 threads=1 iter=4 -> 2.66 s
+openmp_blocked size=2000 threads=1 bs=128 iter=4 -> 1.01 s
+openmp_bt size=2000 threads=1 iter=5 -> 2.68 s
+openmp_blocked size=2000 threads=1 bs=128 iter=5 -> 0.99 s
+openmp_bt size=2000 threads=1 iter=6 -> 2.79 s
+openmp_blocked size=2000 threads=1 bs=128 iter=6 -> 1.02 s
+openmp_bt size=2000 threads=1 iter=7 -> 2.78 s
+openmp_blocked size=2000 threads=1 bs=128 iter=7 -> 1.02 s
+openmp_bt size=2000 threads=1 iter=8 -> 2.75 s
+openmp_blocked size=2000 threads=1 bs=128 iter=8 -> 1.06 s
+openmp_bt size=2000 threads=1 iter=9 -> 2.75 s
+openmp_blocked size=2000 threads=1 bs=128 iter=9 -> 1.00 s
+openmp_bt size=2000 threads=1 iter=10 -> 2.72 s
+openmp_blocked size=2000 threads=1 bs=128 iter=10 -> 1.01 s
+openmp_bt size=2000 threads=2 iter=1 -> 1.77 s
+openmp_blocked size=2000 threads=2 bs=128 iter=1 -> 0.64 s
+openmp_bt size=2000 threads=2 iter=2 -> 1.82 s
+openmp_blocked size=2000 threads=2 bs=128 iter=2 -> 0.62 s
+openmp_bt size=2000 threads=2 iter=3 -> 1.76 s
+openmp_blocked size=2000 threads=2 bs=128 iter=3 -> 0.62 s
+openmp_bt size=2000 threads=2 iter=4 -> 1.76 s
+openmp_blocked size=2000 threads=2 bs=128 iter=4 -> 0.63 s
+openmp_bt size=2000 threads=2 iter=5 -> 1.78 s
+openmp_blocked size=2000 threads=2 bs=128 iter=5 -> 0.61 s
+openmp_bt size=2000 threads=2 iter=6 -> 1.80 s
+openmp_blocked size=2000 threads=2 bs=128 iter=6 -> 0.65 s
+openmp_bt size=2000 threads=2 iter=7 -> 1.82 s
+openmp_blocked size=2000 threads=2 bs=128 iter=7 -> 0.63 s
+openmp_bt size=2000 threads=2 iter=8 -> 1.83 s
+openmp_blocked size=2000 threads=2 bs=128 iter=8 -> 0.62 s
+openmp_bt size=2000 threads=2 iter=9 -> 1.83 s
+openmp_blocked size=2000 threads=2 bs=128 iter=9 -> 0.61 s
+openmp_bt size=2000 threads=2 iter=10 -> 1.81 s
+openmp_blocked size=2000 threads=2 bs=128 iter=10 -> 0.71 s
+openmp_bt size=2000 threads=4 iter=1 -> 1.07 s
+openmp_blocked size=2000 threads=4 bs=128 iter=1 -> 0.48 s
+openmp_bt size=2000 threads=4 iter=2 -> 1.05 s
+openmp_blocked size=2000 threads=4 bs=128 iter=2 -> 0.46 s
+openmp_bt size=2000 threads=4 iter=3 -> 1.04 s
+openmp_blocked size=2000 threads=4 bs=128 iter=3 -> 0.49 s
+openmp_bt size=2000 threads=4 iter=4 -> 1.05 s
+openmp_blocked size=2000 threads=4 bs=128 iter=4 -> 0.48 s
+openmp_bt size=2000 threads=4 iter=5 -> 1.06 s
+openmp_blocked size=2000 threads=4 bs=128 iter=5 -> 0.43 s
+openmp_bt size=2000 threads=4 iter=6 -> 1.04 s
+openmp_blocked size=2000 threads=4 bs=128 iter=6 -> 0.50 s
+openmp_bt size=2000 threads=4 iter=7 -> 1.04 s
+openmp_blocked size=2000 threads=4 bs=128 iter=7 -> 0.50 s
+openmp_bt size=2000 threads=4 iter=8 -> 1.04 s
+openmp_blocked size=2000 threads=4 bs=128 iter=8 -> 0.56 s
+openmp_bt size=2000 threads=4 iter=9 -> 1.05 s
+openmp_blocked size=2000 threads=4 bs=128 iter=9 -> 0.48 s
+openmp_bt size=2000 threads=4 iter=10 -> 1.04 s
+openmp_blocked size=2000 threads=4 bs=128 iter=10 -> 0.44 s
+openmp_bt size=2000 threads=8 iter=1 -> 0.67 s
+openmp_blocked size=2000 threads=8 bs=128 iter=1 -> 0.38 s
+openmp_bt size=2000 threads=8 iter=2 -> 0.69 s
+openmp_blocked size=2000 threads=8 bs=128 iter=2 -> 0.42 s
+openmp_bt size=2000 threads=8 iter=3 -> 0.67 s
+openmp_blocked size=2000 threads=8 bs=128 iter=3 -> 0.42 s
+openmp_bt size=2000 threads=8 iter=4 -> 0.68 s
+openmp_blocked size=2000 threads=8 bs=128 iter=4 -> 0.42 s
+openmp_bt size=2000 threads=8 iter=5 -> 0.67 s
+openmp_blocked size=2000 threads=8 bs=128 iter=5 -> 0.41 s
+openmp_bt size=2000 threads=8 iter=6 -> 0.68 s
+openmp_blocked size=2000 threads=8 bs=128 iter=6 -> 0.42 s
+openmp_bt size=2000 threads=8 iter=7 -> 0.72 s
+openmp_blocked size=2000 threads=8 bs=128 iter=7 -> 0.41 s
+openmp_bt size=2000 threads=8 iter=8 -> 0.68 s
+openmp_blocked size=2000 threads=8 bs=128 iter=8 -> 0.41 s
+openmp_bt size=2000 threads=8 iter=9 -> 0.70 s
+openmp_blocked size=2000 threads=8 bs=128 iter=9 -> 0.42 s
+openmp_bt size=2000 threads=8 iter=10 -> 0.68 s
+openmp_blocked size=2000 threads=8 bs=128 iter=10 -> 0.41 s
+openmp_bt size=2000 threads=16 iter=1 -> 0.69 s
+openmp_blocked size=2000 threads=16 bs=128 iter=1 -> 0.37 s
+openmp_bt size=2000 threads=16 iter=2 -> 0.59 s
+openmp_blocked size=2000 threads=16 bs=128 iter=2 -> 0.38 s
+openmp_bt size=2000 threads=16 iter=3 -> 0.59 s
+openmp_blocked size=2000 threads=16 bs=128 iter=3 -> 0.39 s
+openmp_bt size=2000 threads=16 iter=4 -> 0.60 s
+openmp_blocked size=2000 threads=16 bs=128 iter=4 -> 0.37 s
+openmp_bt size=2000 threads=16 iter=5 -> 0.63 s
+openmp_blocked size=2000 threads=16 bs=128 iter=5 -> 0.39 s
+openmp_bt size=2000 threads=16 iter=6 -> 0.62 s
+openmp_blocked size=2000 threads=16 bs=128 iter=6 -> 0.37 s
+openmp_bt size=2000 threads=16 iter=7 -> 0.67 s
+openmp_blocked size=2000 threads=16 bs=128 iter=7 -> 0.37 s
+openmp_bt size=2000 threads=16 iter=8 -> 0.65 s
+openmp_blocked size=2000 threads=16 bs=128 iter=8 -> 0.37 s
+openmp_bt size=2000 threads=16 iter=9 -> 0.62 s
+openmp_blocked size=2000 threads=16 bs=128 iter=9 -> 0.38 s
+openmp_bt size=2000 threads=16 iter=10 -> 0.64 s
+openmp_blocked size=2000 threads=16 bs=128 iter=10 -> 0.39 s
+openmp_bt size=2000 threads=32 iter=1 -> 0.83 s
+openmp_blocked size=2000 threads=32 bs=128 iter=1 -> 0.39 s
+openmp_bt size=2000 threads=32 iter=2 -> 0.68 s
+openmp_blocked size=2000 threads=32 bs=128 iter=2 -> 0.38 s
+openmp_bt size=2000 threads=32 iter=3 -> 0.82 s
+openmp_blocked size=2000 threads=32 bs=128 iter=3 -> 0.41 s
+openmp_bt size=2000 threads=32 iter=4 -> 0.64 s
+openmp_blocked size=2000 threads=32 bs=128 iter=4 -> 0.38 s
+openmp_bt size=2000 threads=32 iter=5 -> 0.82 s
+openmp_blocked size=2000 threads=32 bs=128 iter=5 -> 0.39 s
+openmp_bt size=2000 threads=32 iter=6 -> 0.66 s
+openmp_blocked size=2000 threads=32 bs=128 iter=6 -> 0.38 s
+openmp_bt size=2000 threads=32 iter=7 -> 0.93 s
+openmp_blocked size=2000 threads=32 bs=128 iter=7 -> 0.40 s
+openmp_bt size=2000 threads=32 iter=8 -> 0.73 s
+openmp_blocked size=2000 threads=32 bs=128 iter=8 -> 0.41 s
+openmp_bt size=2000 threads=32 iter=9 -> 1.13 s
+openmp_blocked size=2000 threads=32 bs=128 iter=9 -> 0.47 s
+openmp_bt size=2000 threads=32 iter=10 -> 0.82 s
+openmp_blocked size=2000 threads=32 bs=128 iter=10 -> 0.38 s
+openmp_bt size=2400 threads=1 iter=1 -> 10.12 s
+openmp_blocked size=2400 threads=1 bs=128 iter=1 -> 2.19 s
+openmp_bt size=2400 threads=1 iter=2 -> 6.02 s
+openmp_blocked size=2400 threads=1 bs=128 iter=2 -> 1.83 s
+openmp_bt size=2400 threads=1 iter=3 -> 5.59 s
+openmp_blocked size=2400 threads=1 bs=128 iter=3 -> 1.90 s
+openmp_bt size=2400 threads=1 iter=4 -> 5.34 s
+openmp_blocked size=2400 threads=1 bs=128 iter=4 -> 1.71 s
+openmp_bt size=2400 threads=1 iter=5 -> 5.14 s
+openmp_blocked size=2400 threads=1 bs=128 iter=5 -> 1.77 s
+openmp_bt size=2400 threads=1 iter=6 -> 5.05 s
+openmp_blocked size=2400 threads=1 bs=128 iter=6 -> 1.71 s
+openmp_bt size=2400 threads=1 iter=7 -> 4.75 s
+openmp_blocked size=2400 threads=1 bs=128 iter=7 -> 1.69 s
+openmp_bt size=2400 threads=1 iter=8 -> 4.82 s
+openmp_blocked size=2400 threads=1 bs=128 iter=8 -> 1.72 s
+openmp_bt size=2400 threads=1 iter=9 -> 4.76 s
+openmp_blocked size=2400 threads=1 bs=128 iter=9 -> 1.72 s
+openmp_bt size=2400 threads=1 iter=10 -> 4.93 s
+openmp_blocked size=2400 threads=1 bs=128 iter=10 -> 1.72 s
+openmp_bt size=2400 threads=2 iter=1 -> 3.25 s
+openmp_blocked size=2400 threads=2 bs=128 iter=1 -> 1.02 s
+openmp_bt size=2400 threads=2 iter=2 -> 3.12 s
+openmp_blocked size=2400 threads=2 bs=128 iter=2 -> 1.15 s
+openmp_bt size=2400 threads=2 iter=3 -> 3.96 s
+openmp_blocked size=2400 threads=2 bs=128 iter=3 -> 1.16 s
+openmp_bt size=2400 threads=2 iter=4 -> 3.52 s
+openmp_blocked size=2400 threads=2 bs=128 iter=4 -> 1.13 s
+openmp_bt size=2400 threads=2 iter=5 -> 3.36 s
+openmp_blocked size=2400 threads=2 bs=128 iter=5 -> 1.01 s
+openmp_bt size=2400 threads=2 iter=6 -> 3.05 s
+openmp_blocked size=2400 threads=2 bs=128 iter=6 -> 1.04 s
+openmp_bt size=2400 threads=2 iter=7 -> 3.16 s
+openmp_blocked size=2400 threads=2 bs=128 iter=7 -> 1.10 s
+openmp_bt size=2400 threads=2 iter=8 -> 3.07 s
+openmp_blocked size=2400 threads=2 bs=128 iter=8 -> 1.04 s
+openmp_bt size=2400 threads=2 iter=9 -> 3.10 s
+openmp_blocked size=2400 threads=2 bs=128 iter=9 -> 1.10 s
+openmp_bt size=2400 threads=2 iter=10 -> 3.07 s
+openmp_blocked size=2400 threads=2 bs=128 iter=10 -> 1.12 s
+openmp_bt size=2400 threads=4 iter=1 -> 1.86 s
+openmp_blocked size=2400 threads=4 bs=128 iter=1 -> 0.79 s
+openmp_bt size=2400 threads=4 iter=2 -> 1.79 s
+openmp_blocked size=2400 threads=4 bs=128 iter=2 -> 0.75 s
+openmp_bt size=2400 threads=4 iter=3 -> 1.80 s
+openmp_blocked size=2400 threads=4 bs=128 iter=3 -> 0.86 s
+openmp_bt size=2400 threads=4 iter=4 -> 1.78 s
+openmp_blocked size=2400 threads=4 bs=128 iter=4 -> 0.74 s
+openmp_bt size=2400 threads=4 iter=5 -> 1.80 s
+openmp_blocked size=2400 threads=4 bs=128 iter=5 -> 0.83 s
+openmp_bt size=2400 threads=4 iter=6 -> 1.82 s
+openmp_blocked size=2400 threads=4 bs=128 iter=6 -> 0.78 s
+openmp_bt size=2400 threads=4 iter=7 -> 1.82 s
+openmp_blocked size=2400 threads=4 bs=128 iter=7 -> 0.83 s
+openmp_bt size=2400 threads=4 iter=8 -> 1.82 s
+openmp_blocked size=2400 threads=4 bs=128 iter=8 -> 0.82 s
+openmp_bt size=2400 threads=4 iter=9 -> 1.81 s
+openmp_blocked size=2400 threads=4 bs=128 iter=9 -> 0.78 s
+openmp_bt size=2400 threads=4 iter=10 -> 1.79 s
+openmp_blocked size=2400 threads=4 bs=128 iter=10 -> 0.78 s
+openmp_bt size=2400 threads=8 iter=1 -> 1.15 s
+openmp_blocked size=2400 threads=8 bs=128 iter=1 -> 0.63 s
+openmp_bt size=2400 threads=8 iter=2 -> 1.16 s
+openmp_blocked size=2400 threads=8 bs=128 iter=2 -> 0.69 s
+openmp_bt size=2400 threads=8 iter=3 -> 1.15 s
+openmp_blocked size=2400 threads=8 bs=128 iter=3 -> 0.63 s
+openmp_bt size=2400 threads=8 iter=4 -> 1.12 s
+openmp_blocked size=2400 threads=8 bs=128 iter=4 -> 0.66 s
+openmp_bt size=2400 threads=8 iter=5 -> 1.15 s
+openmp_blocked size=2400 threads=8 bs=128 iter=5 -> 0.71 s
+openmp_bt size=2400 threads=8 iter=6 -> 1.13 s
+openmp_blocked size=2400 threads=8 bs=128 iter=6 -> 0.69 s
+openmp_bt size=2400 threads=8 iter=7 -> 1.13 s
+openmp_blocked size=2400 threads=8 bs=128 iter=7 -> 0.67 s
+openmp_bt size=2400 threads=8 iter=8 -> 1.18 s
+openmp_blocked size=2400 threads=8 bs=128 iter=8 -> 0.65 s
+openmp_bt size=2400 threads=8 iter=9 -> 1.21 s
+openmp_blocked size=2400 threads=8 bs=128 iter=9 -> 0.66 s
+openmp_bt size=2400 threads=8 iter=10 -> 1.20 s
+openmp_blocked size=2400 threads=8 bs=128 iter=10 -> 0.64 s
+openmp_bt size=2400 threads=16 iter=1 -> 1.26 s
+openmp_blocked size=2400 threads=16 bs=128 iter=1 -> 0.63 s
+openmp_bt size=2400 threads=16 iter=2 -> 1.28 s
+openmp_blocked size=2400 threads=16 bs=128 iter=2 -> 0.63 s
+openmp_bt size=2400 threads=16 iter=3 -> 1.19 s
+openmp_blocked size=2400 threads=16 bs=128 iter=3 -> 0.61 s
+openmp_bt size=2400 threads=16 iter=4 -> 1.30 s
+openmp_blocked size=2400 threads=16 bs=128 iter=4 -> 0.62 s
+openmp_bt size=2400 threads=16 iter=5 -> 1.31 s
+openmp_blocked size=2400 threads=16 bs=128 iter=5 -> 0.60 s
+openmp_bt size=2400 threads=16 iter=6 -> 1.33 s
+openmp_blocked size=2400 threads=16 bs=128 iter=6 -> 0.60 s
+openmp_bt size=2400 threads=16 iter=7 -> 1.08 s
+openmp_blocked size=2400 threads=16 bs=128 iter=7 -> 0.62 s
+openmp_bt size=2400 threads=16 iter=8 -> 1.15 s
+openmp_blocked size=2400 threads=16 bs=128 iter=8 -> 0.62 s
+openmp_bt size=2400 threads=16 iter=9 -> 1.83 s
+openmp_blocked size=2400 threads=16 bs=128 iter=9 -> 0.74 s
+openmp_bt size=2400 threads=16 iter=10 -> 1.44 s
+openmp_blocked size=2400 threads=16 bs=128 iter=10 -> 0.66 s
+openmp_bt size=2400 threads=32 iter=1 -> 1.56 s
+openmp_blocked size=2400 threads=32 bs=128 iter=1 -> 0.67 s
+openmp_bt size=2400 threads=32 iter=2 -> 1.86 s
+openmp_blocked size=2400 threads=32 bs=128 iter=2 -> 0.62 s
+openmp_bt size=2400 threads=32 iter=3 -> 1.34 s
+openmp_blocked size=2400 threads=32 bs=128 iter=3 -> 0.61 s
+openmp_bt size=2400 threads=32 iter=4 -> 1.33 s
+openmp_blocked size=2400 threads=32 bs=128 iter=4 -> 0.61 s
+openmp_bt size=2400 threads=32 iter=5 -> 1.34 s
+openmp_blocked size=2400 threads=32 bs=128 iter=5 -> 0.60 s
+openmp_bt size=2400 threads=32 iter=6 -> 1.32 s
+openmp_blocked size=2400 threads=32 bs=128 iter=6 -> 0.61 s
+openmp_bt size=2400 threads=32 iter=7 -> 1.59 s
+openmp_blocked size=2400 threads=32 bs=128 iter=7 -> 0.63 s
+openmp_bt size=2400 threads=32 iter=8 -> 1.45 s
+openmp_blocked size=2400 threads=32 bs=128 iter=8 -> 0.62 s
+openmp_bt size=2400 threads=32 iter=9 -> 1.58 s
+openmp_blocked size=2400 threads=32 bs=128 iter=9 -> 0.62 s
+openmp_bt size=2400 threads=32 iter=10 -> 1.50 s
+openmp_blocked size=2400 threads=32 bs=128 iter=10 -> 0.62 s
+openmp_bt size=3000 threads=1 iter=1 -> 9.72 s
+openmp_blocked size=3000 threads=1 bs=128 iter=1 -> 3.29 s
+openmp_bt size=3000 threads=1 iter=2 -> 9.65 s
+openmp_blocked size=3000 threads=1 bs=128 iter=2 -> 3.32 s
+openmp_bt size=3000 threads=1 iter=3 -> 9.57 s
+openmp_blocked size=3000 threads=1 bs=128 iter=3 -> 3.25 s
+openmp_bt size=3000 threads=1 iter=4 -> 9.49 s
+openmp_blocked size=3000 threads=1 bs=128 iter=4 -> 3.25 s
+openmp_bt size=3000 threads=1 iter=5 -> 9.57 s
+openmp_blocked size=3000 threads=1 bs=128 iter=5 -> 3.28 s
+openmp_bt size=3000 threads=1 iter=6 -> 9.39 s
+openmp_blocked size=3000 threads=1 bs=128 iter=6 -> 3.25 s
+openmp_bt size=3000 threads=1 iter=7 -> 9.50 s
+openmp_blocked size=3000 threads=1 bs=128 iter=7 -> 3.22 s
+openmp_bt size=3000 threads=1 iter=8 -> 9.53 s
+openmp_blocked size=3000 threads=1 bs=128 iter=8 -> 3.22 s
+openmp_bt size=3000 threads=1 iter=9 -> 9.34 s
+openmp_blocked size=3000 threads=1 bs=128 iter=9 -> 3.22 s
+openmp_bt size=3000 threads=1 iter=10 -> 9.49 s
+openmp_blocked size=3000 threads=1 bs=128 iter=10 -> 3.26 s
+openmp_bt size=3000 threads=2 iter=1 -> 5.86 s
+openmp_blocked size=3000 threads=2 bs=128 iter=1 -> 1.94 s
+openmp_bt size=3000 threads=2 iter=2 -> 6.04 s
+openmp_blocked size=3000 threads=2 bs=128 iter=2 -> 1.98 s
+openmp_bt size=3000 threads=2 iter=3 -> 5.81 s
+openmp_blocked size=3000 threads=2 bs=128 iter=3 -> 1.98 s
+openmp_bt size=3000 threads=2 iter=4 -> 6.17 s
+openmp_blocked size=3000 threads=2 bs=128 iter=4 -> 1.94 s
+openmp_bt size=3000 threads=2 iter=5 -> 5.87 s
+openmp_blocked size=3000 threads=2 bs=128 iter=5 -> 1.92 s
+openmp_bt size=3000 threads=2 iter=6 -> 6.69 s
+openmp_blocked size=3000 threads=2 bs=128 iter=6 -> 2.30 s
+openmp_bt size=3000 threads=2 iter=7 -> 6.01 s
+openmp_blocked size=3000 threads=2 bs=128 iter=7 -> 2.02 s
+openmp_bt size=3000 threads=2 iter=8 -> 6.13 s
+openmp_blocked size=3000 threads=2 bs=128 iter=8 -> 2.14 s
+openmp_bt size=3000 threads=2 iter=9 -> 5.89 s
+openmp_blocked size=3000 threads=2 bs=128 iter=9 -> 1.99 s
+openmp_bt size=3000 threads=2 iter=10 -> 6.42 s
+openmp_blocked size=3000 threads=2 bs=128 iter=10 -> 1.92 s
+openmp_bt size=3000 threads=4 iter=1 -> 3.45 s
+openmp_blocked size=3000 threads=4 bs=128 iter=1 -> 1.47 s
+openmp_bt size=3000 threads=4 iter=2 -> 3.44 s
+openmp_blocked size=3000 threads=4 bs=128 iter=2 -> 1.42 s
+openmp_bt size=3000 threads=4 iter=3 -> 3.54 s
+openmp_blocked size=3000 threads=4 bs=128 iter=3 -> 1.32 s
+openmp_bt size=3000 threads=4 iter=4 -> 3.51 s
+openmp_blocked size=3000 threads=4 bs=128 iter=4 -> 1.44 s
+openmp_bt size=3000 threads=4 iter=5 -> 3.46 s
+openmp_blocked size=3000 threads=4 bs=128 iter=5 -> 1.45 s
+openmp_bt size=3000 threads=4 iter=6 -> 3.45 s
+openmp_blocked size=3000 threads=4 bs=128 iter=6 -> 1.46 s
+openmp_bt size=3000 threads=4 iter=7 -> 3.50 s
+openmp_blocked size=3000 threads=4 bs=128 iter=7 -> 1.38 s
+openmp_bt size=3000 threads=4 iter=8 -> 3.47 s
+openmp_blocked size=3000 threads=4 bs=128 iter=8 -> 1.35 s
+openmp_bt size=3000 threads=4 iter=9 -> 3.57 s
+openmp_blocked size=3000 threads=4 bs=128 iter=9 -> 1.56 s
+openmp_bt size=3000 threads=4 iter=10 -> 3.52 s
+openmp_blocked size=3000 threads=4 bs=128 iter=10 -> 1.46 s
+openmp_bt size=3000 threads=8 iter=1 -> 2.17 s
+openmp_blocked size=3000 threads=8 bs=128 iter=1 -> 1.12 s
+openmp_bt size=3000 threads=8 iter=2 -> 2.22 s
+openmp_blocked size=3000 threads=8 bs=128 iter=2 -> 1.18 s
+openmp_bt size=3000 threads=8 iter=3 -> 2.17 s
+openmp_blocked size=3000 threads=8 bs=128 iter=3 -> 1.13 s
+openmp_bt size=3000 threads=8 iter=4 -> 2.18 s
+openmp_blocked size=3000 threads=8 bs=128 iter=4 -> 1.16 s
+openmp_bt size=3000 threads=8 iter=5 -> 2.24 s
+openmp_blocked size=3000 threads=8 bs=128 iter=5 -> 1.26 s
+openmp_bt size=3000 threads=8 iter=6 -> 2.17 s
+openmp_blocked size=3000 threads=8 bs=128 iter=6 -> 1.16 s
+openmp_bt size=3000 threads=8 iter=7 -> 2.16 s
+openmp_blocked size=3000 threads=8 bs=128 iter=7 -> 1.15 s
+openmp_bt size=3000 threads=8 iter=8 -> 2.21 s
+openmp_blocked size=3000 threads=8 bs=128 iter=8 -> 1.11 s
+openmp_bt size=3000 threads=8 iter=9 -> 2.23 s
+openmp_blocked size=3000 threads=8 bs=128 iter=9 -> 1.12 s
+openmp_bt size=3000 threads=8 iter=10 -> 2.21 s
+openmp_blocked size=3000 threads=8 bs=128 iter=10 -> 1.20 s
+openmp_bt size=3000 threads=16 iter=1 -> 2.43 s
+openmp_blocked size=3000 threads=16 bs=128 iter=1 -> 1.08 s
+openmp_bt size=3000 threads=16 iter=2 -> 2.67 s
+openmp_blocked size=3000 threads=16 bs=128 iter=2 -> 1.05 s
+openmp_bt size=3000 threads=16 iter=3 -> 2.50 s
+openmp_blocked size=3000 threads=16 bs=128 iter=3 -> 1.05 s
+openmp_bt size=3000 threads=16 iter=4 -> 2.62 s
+openmp_blocked size=3000 threads=16 bs=128 iter=4 -> 1.06 s
+openmp_bt size=3000 threads=16 iter=5 -> 2.33 s
+openmp_blocked size=3000 threads=16 bs=128 iter=5 -> 1.03 s
+openmp_bt size=3000 threads=16 iter=6 -> 3.50 s
+openmp_blocked size=3000 threads=16 bs=128 iter=6 -> 1.07 s
+openmp_bt size=3000 threads=16 iter=7 -> 2.39 s
+openmp_blocked size=3000 threads=16 bs=128 iter=7 -> 1.06 s
+openmp_bt size=3000 threads=16 iter=8 -> 3.02 s
+openmp_blocked size=3000 threads=16 bs=128 iter=8 -> 1.08 s
+openmp_bt size=3000 threads=16 iter=9 -> 2.59 s
+openmp_blocked size=3000 threads=16 bs=128 iter=9 -> 1.05 s
+openmp_bt size=3000 threads=16 iter=10 -> 2.60 s
+openmp_blocked size=3000 threads=16 bs=128 iter=10 -> 1.04 s
+openmp_bt size=3000 threads=32 iter=1 -> 3.55 s
+openmp_blocked size=3000 threads=32 bs=128 iter=1 -> 1.06 s
+openmp_bt size=3000 threads=32 iter=2 -> 3.80 s
+openmp_blocked size=3000 threads=32 bs=128 iter=2 -> 1.06 s
+openmp_bt size=3000 threads=32 iter=3 -> 3.50 s
+openmp_blocked size=3000 threads=32 bs=128 iter=3 -> 1.07 s
+openmp_bt size=3000 threads=32 iter=4 -> 3.56 s
+openmp_blocked size=3000 threads=32 bs=128 iter=4 -> 1.11 s
+openmp_bt size=3000 threads=32 iter=5 -> 4.09 s
+openmp_blocked size=3000 threads=32 bs=128 iter=5 -> 1.13 s
+openmp_bt size=3000 threads=32 iter=6 -> 3.37 s
+openmp_blocked size=3000 threads=32 bs=128 iter=6 -> 1.09 s
+openmp_bt size=3000 threads=32 iter=7 -> 3.05 s
+openmp_blocked size=3000 threads=32 bs=128 iter=7 -> 1.08 s
+openmp_bt size=3000 threads=32 iter=8 -> 3.69 s
+openmp_blocked size=3000 threads=32 bs=128 iter=8 -> 1.08 s
+openmp_bt size=3000 threads=32 iter=9 -> 3.42 s
+openmp_blocked size=3000 threads=32 bs=128 iter=9 -> 1.08 s
+openmp_bt size=3000 threads=32 iter=10 -> 3.44 s
+openmp_blocked size=3000 threads=32 bs=128 iter=10 -> 1.08 s
+openmp_bt size=4000 threads=1 iter=1 -> 22.59 s
+openmp_blocked size=4000 threads=1 bs=128 iter=1 -> 7.57 s
+openmp_bt size=4000 threads=1 iter=2 -> 22.57 s
+openmp_blocked size=4000 threads=1 bs=128 iter=2 -> 7.38 s
+openmp_bt size=4000 threads=1 iter=3 -> 22.64 s
+openmp_blocked size=4000 threads=1 bs=128 iter=3 -> 7.37 s
+openmp_bt size=4000 threads=1 iter=4 -> 22.57 s
+openmp_blocked size=4000 threads=1 bs=128 iter=4 -> 9.95 s
+openmp_bt size=4000 threads=1 iter=5 -> 62.68 s
+openmp_blocked size=4000 threads=1 bs=128 iter=5 -> 8.17 s
+openmp_bt size=4000 threads=1 iter=6 -> 23.91 s
+openmp_blocked size=4000 threads=1 bs=128 iter=6 -> 7.83 s
+openmp_bt size=4000 threads=1 iter=7 -> 24.80 s
+openmp_blocked size=4000 threads=1 bs=128 iter=7 -> 7.66 s
+openmp_bt size=4000 threads=1 iter=8 -> 23.00 s
+openmp_blocked size=4000 threads=1 bs=128 iter=8 -> 7.39 s
+openmp_bt size=4000 threads=1 iter=9 -> 22.54 s
+openmp_blocked size=4000 threads=1 bs=128 iter=9 -> 7.40 s
+openmp_bt size=4000 threads=1 iter=10 -> 22.44 s
+openmp_blocked size=4000 threads=1 bs=128 iter=10 -> 7.38 s
+openmp_bt size=4000 threads=2 iter=1 -> 13.93 s
+openmp_blocked size=4000 threads=2 bs=128 iter=1 -> 4.45 s
+openmp_bt size=4000 threads=2 iter=2 -> 14.00 s
+openmp_blocked size=4000 threads=2 bs=128 iter=2 -> 4.48 s
+openmp_bt size=4000 threads=2 iter=3 -> 14.93 s
+openmp_blocked size=4000 threads=2 bs=128 iter=3 -> 4.35 s
+openmp_bt size=4000 threads=2 iter=4 -> 13.58 s
+openmp_blocked size=4000 threads=2 bs=128 iter=4 -> 4.41 s
+openmp_bt size=4000 threads=2 iter=5 -> 13.95 s
+openmp_blocked size=4000 threads=2 bs=128 iter=5 -> 4.43 s
+openmp_bt size=4000 threads=2 iter=6 -> 13.68 s
+openmp_blocked size=4000 threads=2 bs=128 iter=6 -> 4.82 s
+openmp_bt size=4000 threads=2 iter=7 -> 24.82 s
+openmp_blocked size=4000 threads=2 bs=128 iter=7 -> 6.45 s
+openmp_bt size=4000 threads=2 iter=8 -> 19.22 s
+openmp_blocked size=4000 threads=2 bs=128 iter=8 -> 4.68 s
+openmp_bt size=4000 threads=2 iter=9 -> 15.48 s
+openmp_blocked size=4000 threads=2 bs=128 iter=9 -> 4.49 s
+openmp_bt size=4000 threads=2 iter=10 -> 14.63 s
+openmp_blocked size=4000 threads=2 bs=128 iter=10 -> 4.81 s
+openmp_bt size=4000 threads=4 iter=1 -> 8.22 s
+openmp_blocked size=4000 threads=4 bs=128 iter=1 -> 3.27 s
+openmp_bt size=4000 threads=4 iter=2 -> 9.02 s
+openmp_blocked size=4000 threads=4 bs=128 iter=2 -> 3.33 s
+openmp_bt size=4000 threads=4 iter=3 -> 8.35 s
+openmp_blocked size=4000 threads=4 bs=128 iter=3 -> 3.18 s
+openmp_bt size=4000 threads=4 iter=4 -> 8.62 s
+openmp_blocked size=4000 threads=4 bs=128 iter=4 -> 3.33 s
+openmp_bt size=4000 threads=4 iter=5 -> 8.58 s
+openmp_blocked size=4000 threads=4 bs=128 iter=5 -> 3.22 s
+openmp_bt size=4000 threads=4 iter=6 -> 8.57 s
+openmp_blocked size=4000 threads=4 bs=128 iter=6 -> 3.09 s
+openmp_bt size=4000 threads=4 iter=7 -> 7.99 s
+openmp_blocked size=4000 threads=4 bs=128 iter=7 -> 3.07 s
+openmp_bt size=4000 threads=4 iter=8 -> 7.98 s
+openmp_blocked size=4000 threads=4 bs=128 iter=8 -> 3.09 s
+openmp_bt size=4000 threads=4 iter=9 -> 8.12 s
+openmp_blocked size=4000 threads=4 bs=128 iter=9 -> 3.10 s
+openmp_bt size=4000 threads=4 iter=10 -> 8.04 s
+openmp_blocked size=4000 threads=4 bs=128 iter=10 -> 3.06 s
+openmp_bt size=4000 threads=8 iter=1 -> 5.06 s
+openmp_blocked size=4000 threads=8 bs=128 iter=1 -> 2.39 s
+openmp_bt size=4000 threads=8 iter=2 -> 5.01 s
+openmp_blocked size=4000 threads=8 bs=128 iter=2 -> 2.49 s
+openmp_bt size=4000 threads=8 iter=3 -> 5.08 s
+openmp_blocked size=4000 threads=8 bs=128 iter=3 -> 2.44 s
+openmp_bt size=4000 threads=8 iter=4 -> 5.01 s
+openmp_blocked size=4000 threads=8 bs=128 iter=4 -> 2.43 s
+openmp_bt size=4000 threads=8 iter=5 -> 4.98 s
+openmp_blocked size=4000 threads=8 bs=128 iter=5 -> 2.42 s
+openmp_bt size=4000 threads=8 iter=6 -> 4.93 s
+openmp_blocked size=4000 threads=8 bs=128 iter=6 -> 2.60 s
+openmp_bt size=4000 threads=8 iter=7 -> 5.07 s
+openmp_blocked size=4000 threads=8 bs=128 iter=7 -> 2.46 s
+openmp_bt size=4000 threads=8 iter=8 -> 5.08 s
+openmp_blocked size=4000 threads=8 bs=128 iter=8 -> 2.49 s
+openmp_bt size=4000 threads=8 iter=9 -> 5.01 s
+openmp_blocked size=4000 threads=8 bs=128 iter=9 -> 2.45 s
+openmp_bt size=4000 threads=8 iter=10 -> 4.96 s
+openmp_blocked size=4000 threads=8 bs=128 iter=10 -> 2.40 s
+openmp_bt size=4000 threads=16 iter=1 -> 8.27 s
+openmp_blocked size=4000 threads=16 bs=128 iter=1 -> 2.29 s
+openmp_bt size=4000 threads=16 iter=2 -> 8.48 s
+openmp_blocked size=4000 threads=16 bs=128 iter=2 -> 2.31 s
+openmp_bt size=4000 threads=16 iter=3 -> 10.28 s
+openmp_blocked size=4000 threads=16 bs=128 iter=3 -> 2.28 s
+openmp_bt size=4000 threads=16 iter=4 -> 9.50 s
+openmp_blocked size=4000 threads=16 bs=128 iter=4 -> 2.42 s
+openmp_bt size=4000 threads=16 iter=5 -> 14.46 s
+openmp_blocked size=4000 threads=16 bs=128 iter=5 -> 2.40 s
+openmp_bt size=4000 threads=16 iter=6 -> 9.86 s
+openmp_blocked size=4000 threads=16 bs=128 iter=6 -> 2.35 s
+openmp_bt size=4000 threads=16 iter=7 -> 10.18 s
+openmp_blocked size=4000 threads=16 bs=128 iter=7 -> 2.24 s
+openmp_bt size=4000 threads=16 iter=8 -> 10.76 s
+openmp_blocked size=4000 threads=16 bs=128 iter=8 -> 2.59 s
+openmp_bt size=4000 threads=16 iter=9 -> 13.39 s
+openmp_blocked size=4000 threads=16 bs=128 iter=9 -> 2.37 s
+openmp_bt size=4000 threads=16 iter=10 -> 10.75 s
+openmp_blocked size=4000 threads=16 bs=128 iter=10 -> 2.31 s
+openmp_bt size=4000 threads=32 iter=1 -> 16.19 s
+openmp_blocked size=4000 threads=32 bs=128 iter=1 -> 2.29 s
+openmp_bt size=4000 threads=32 iter=2 -> 15.37 s
+openmp_blocked size=4000 threads=32 bs=128 iter=2 -> 2.36 s
+openmp_bt size=4000 threads=32 iter=3 -> 14.10 s
+openmp_blocked size=4000 threads=32 bs=128 iter=3 -> 2.38 s
+openmp_bt size=4000 threads=32 iter=4 -> 14.27 s
+openmp_blocked size=4000 threads=32 bs=128 iter=4 -> 2.84 s
+openmp_bt size=4000 threads=32 iter=5 -> 16.60 s
+openmp_blocked size=4000 threads=32 bs=128 iter=5 -> 2.31 s
+openmp_bt size=4000 threads=32 iter=6 -> 16.14 s
+openmp_blocked size=4000 threads=32 bs=128 iter=6 -> 2.27 s
+openmp_bt size=4000 threads=32 iter=7 -> 16.65 s
+openmp_blocked size=4000 threads=32 bs=128 iter=7 -> 2.27 s
+openmp_bt size=4000 threads=32 iter=8 -> 16.53 s
+openmp_blocked size=4000 threads=32 bs=128 iter=8 -> 2.38 s
+openmp_bt size=4000 threads=32 iter=9 -> 14.90 s
+openmp_blocked size=4000 threads=32 bs=128 iter=9 -> 2.40 s
+openmp_bt size=4000 threads=32 iter=10 -> 14.06 s
+openmp_blocked size=4000 threads=32 bs=128 iter=10 -> 2.26 s

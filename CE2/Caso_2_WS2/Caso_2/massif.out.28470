@@ -1,0 +1,1053 @@
+desc: --time-unit=ms
+cmd: ./mm_openmp_blocked 4096 16 128
+time_unit: ms
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=563
+mem_heap_B=8
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=566
+mem_heap_B=104
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=573
+mem_heap_B=360
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=579
+mem_heap_B=832
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=583
+mem_heap_B=952
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=584
+mem_heap_B=5048
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=587
+mem_heap_B=5520
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=587
+mem_heap_B=5640
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=587
+mem_heap_B=9736
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n5: 9736 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x49311B4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 8192 0x4941523: _IO_doallocbuf (genops.c:347)
+   n1: 8192 0x493E883: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 8192 0x4932E0F: getdelim (iogetdelim.c:77)
+     n2: 8192 0x487CD16: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 4096 0x487D0AA: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+       n1: 4096 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+        n1: 4096 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+         n1: 4096 0x400571E: call_init.part.0 (dl-init.c:74)
+          n1: 4096 0x4005823: call_init (dl-init.c:120)
+           n1: 4096 0x4005823: _dl_init (dl-init.c:121)
+            n1: 4096 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+             n1: 4096 0x3: ???
+              n1: 4096 0x1FFEFFFD6A: ???
+               n1: 4096 0x1FFEFFFD7E: ???
+                n1: 4096 0x1FFEFFFD83: ???
+                 n0: 4096 0x1FFEFFFD86: ???
+      n1: 4096 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+       n1: 4096 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+        n1: 4096 0x400571E: call_init.part.0 (dl-init.c:74)
+         n1: 4096 0x4005823: call_init (dl-init.c:120)
+          n1: 4096 0x4005823: _dl_init (dl-init.c:121)
+           n1: 4096 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+            n1: 4096 0x3: ???
+             n1: 4096 0x1FFEFFFD6A: ???
+              n1: 4096 0x1FFEFFFD7E: ???
+               n1: 4096 0x1FFEFFFD83: ???
+                n0: 4096 0x1FFEFFFD86: ???
+ n1: 944 0x4931E7E: __fopen_internal (iofopen.c:65)
+  n1: 944 0x4931E7E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n2: 944 0x487CCE2: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 472 0x487D0AA: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 472 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 472 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+       n1: 472 0x400571E: call_init.part.0 (dl-init.c:74)
+        n1: 472 0x4005823: call_init (dl-init.c:120)
+         n1: 472 0x4005823: _dl_init (dl-init.c:121)
+          n1: 472 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+           n1: 472 0x3: ???
+            n1: 472 0x1FFEFFFD6A: ???
+             n1: 472 0x1FFEFFFD7E: ???
+              n1: 472 0x1FFEFFFD83: ???
+               n0: 472 0x1FFEFFFD86: ???
+    n1: 472 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 472 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 472 0x400571E: call_init.part.0 (dl-init.c:74)
+       n1: 472 0x4005823: call_init (dl-init.c:120)
+        n1: 472 0x4005823: _dl_init (dl-init.c:121)
+         n1: 472 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+          n1: 472 0x3: ???
+           n1: 472 0x1FFEFFFD6A: ???
+            n1: 472 0x1FFEFFFD7E: ???
+             n1: 472 0x1FFEFFFD83: ???
+              n0: 472 0x1FFEFFFD86: ???
+ n1: 256 0x487D3C4: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 256 0x487D859: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 256 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 256 0x400571E: call_init.part.0 (dl-init.c:74)
+     n1: 256 0x4005823: call_init (dl-init.c:120)
+      n1: 256 0x4005823: _dl_init (dl-init.c:121)
+       n1: 256 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+        n1: 256 0x3: ???
+         n1: 256 0x1FFEFFFD6A: ???
+          n1: 256 0x1FFEFFFD7E: ???
+           n1: 256 0x1FFEFFFD83: ???
+            n0: 256 0x1FFEFFFD86: ???
+ n1: 240 0x4932D84: getdelim (iogetdelim.c:65)
+  n2: 240 0x487CD16: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 120 0x487D0AA: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 120 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 120 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 120 0x400571E: call_init.part.0 (dl-init.c:74)
+       n1: 120 0x4005823: call_init (dl-init.c:120)
+        n1: 120 0x4005823: _dl_init (dl-init.c:121)
+         n1: 120 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+          n1: 120 0x3: ???
+           n1: 120 0x1FFEFFFD6A: ???
+            n1: 120 0x1FFEFFFD7E: ???
+             n1: 120 0x1FFEFFFD83: ???
+              n0: 120 0x1FFEFFFD86: ???
+   n1: 120 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 120 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 120 0x400571E: call_init.part.0 (dl-init.c:74)
+      n1: 120 0x4005823: call_init (dl-init.c:120)
+       n1: 120 0x4005823: _dl_init (dl-init.c:121)
+        n1: 120 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 120 0x3: ???
+          n1: 120 0x1FFEFFFD6A: ???
+           n1: 120 0x1FFEFFFD7E: ???
+            n1: 120 0x1FFEFFFD83: ???
+             n0: 120 0x1FFEFFFD86: ???
+ n0: 104 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=590
+mem_heap_B=9736
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n5: 9736 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x49311B4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 8192 0x4941523: _IO_doallocbuf (genops.c:347)
+   n1: 8192 0x493E883: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 8192 0x4932E0F: getdelim (iogetdelim.c:77)
+     n2: 8192 0x487CD16: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 4096 0x487D0AA: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+       n1: 4096 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+        n1: 4096 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+         n1: 4096 0x400571E: call_init.part.0 (dl-init.c:74)
+          n1: 4096 0x4005823: call_init (dl-init.c:120)
+           n1: 4096 0x4005823: _dl_init (dl-init.c:121)
+            n1: 4096 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+             n1: 4096 0x3: ???
+              n1: 4096 0x1FFEFFFD6A: ???
+               n1: 4096 0x1FFEFFFD7E: ???
+                n1: 4096 0x1FFEFFFD83: ???
+                 n0: 4096 0x1FFEFFFD86: ???
+      n1: 4096 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+       n1: 4096 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+        n1: 4096 0x400571E: call_init.part.0 (dl-init.c:74)
+         n1: 4096 0x4005823: call_init (dl-init.c:120)
+          n1: 4096 0x4005823: _dl_init (dl-init.c:121)
+           n1: 4096 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+            n1: 4096 0x3: ???
+             n1: 4096 0x1FFEFFFD6A: ???
+              n1: 4096 0x1FFEFFFD7E: ???
+               n1: 4096 0x1FFEFFFD83: ???
+                n0: 4096 0x1FFEFFFD86: ???
+ n1: 944 0x4931E7E: __fopen_internal (iofopen.c:65)
+  n1: 944 0x4931E7E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n2: 944 0x487CCE2: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 472 0x487D0AA: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 472 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 472 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+       n1: 472 0x400571E: call_init.part.0 (dl-init.c:74)
+        n1: 472 0x4005823: call_init (dl-init.c:120)
+         n1: 472 0x4005823: _dl_init (dl-init.c:121)
+          n1: 472 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+           n1: 472 0x3: ???
+            n1: 472 0x1FFEFFFD6A: ???
+             n1: 472 0x1FFEFFFD7E: ???
+              n1: 472 0x1FFEFFFD83: ???
+               n0: 472 0x1FFEFFFD86: ???
+    n1: 472 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 472 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 472 0x400571E: call_init.part.0 (dl-init.c:74)
+       n1: 472 0x4005823: call_init (dl-init.c:120)
+        n1: 472 0x4005823: _dl_init (dl-init.c:121)
+         n1: 472 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+          n1: 472 0x3: ???
+           n1: 472 0x1FFEFFFD6A: ???
+            n1: 472 0x1FFEFFFD7E: ???
+             n1: 472 0x1FFEFFFD83: ???
+              n0: 472 0x1FFEFFFD86: ???
+ n1: 256 0x487D3C4: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 256 0x487D859: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 256 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 256 0x400571E: call_init.part.0 (dl-init.c:74)
+     n1: 256 0x4005823: call_init (dl-init.c:120)
+      n1: 256 0x4005823: _dl_init (dl-init.c:121)
+       n1: 256 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+        n1: 256 0x3: ???
+         n1: 256 0x1FFEFFFD6A: ???
+          n1: 256 0x1FFEFFFD7E: ???
+           n1: 256 0x1FFEFFFD83: ???
+            n0: 256 0x1FFEFFFD86: ???
+ n1: 240 0x4932D84: getdelim (iogetdelim.c:65)
+  n2: 240 0x487CD16: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 120 0x487D0AA: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 120 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 120 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 120 0x400571E: call_init.part.0 (dl-init.c:74)
+       n1: 120 0x4005823: call_init (dl-init.c:120)
+        n1: 120 0x4005823: _dl_init (dl-init.c:121)
+         n1: 120 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+          n1: 120 0x3: ???
+           n1: 120 0x1FFEFFFD6A: ???
+            n1: 120 0x1FFEFFFD7E: ???
+             n1: 120 0x1FFEFFFD83: ???
+              n0: 120 0x1FFEFFFD86: ???
+   n1: 120 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 120 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 120 0x400571E: call_init.part.0 (dl-init.c:74)
+      n1: 120 0x4005823: call_init (dl-init.c:120)
+       n1: 120 0x4005823: _dl_init (dl-init.c:121)
+        n1: 120 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 120 0x3: ???
+          n1: 120 0x1FFEFFFD6A: ???
+           n1: 120 0x1FFEFFFD7E: ???
+            n1: 120 0x1FFEFFFD83: ???
+             n0: 120 0x1FFEFFFD86: ???
+ n0: 104 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=590
+mem_heap_B=5640
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=591
+mem_heap_B=5168
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=591
+mem_heap_B=5640
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=592
+mem_heap_B=9736
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=592
+mem_heap_B=5640
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=592
+mem_heap_B=5168
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=592
+mem_heap_B=5640
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=592
+mem_heap_B=9736
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=592
+mem_heap_B=5640
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=592
+mem_heap_B=5168
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=detailed
+n6: 5168 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4096 0x49311B4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x4941523: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x493E883: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x4932E0F: getdelim (iogetdelim.c:77)
+     n2: 4096 0x487CD16: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 4096 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+       n1: 4096 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+        n1: 4096 0x400571E: call_init.part.0 (dl-init.c:74)
+         n1: 4096 0x4005823: call_init (dl-init.c:120)
+          n1: 4096 0x4005823: _dl_init (dl-init.c:121)
+           n1: 4096 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+            n1: 4096 0x3: ???
+             n1: 4096 0x1FFEFFFD6A: ???
+              n1: 4096 0x1FFEFFFD7E: ???
+               n1: 4096 0x1FFEFFFD83: ???
+                n0: 4096 0x1FFEFFFD86: ???
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 472 0x4931E7E: __fopen_internal (iofopen.c:65)
+  n1: 472 0x4931E7E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n2: 472 0x487CCE2: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 472 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 472 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 472 0x400571E: call_init.part.0 (dl-init.c:74)
+       n1: 472 0x4005823: call_init (dl-init.c:120)
+        n1: 472 0x4005823: _dl_init (dl-init.c:121)
+         n1: 472 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+          n1: 472 0x3: ???
+           n1: 472 0x1FFEFFFD6A: ???
+            n1: 472 0x1FFEFFFD7E: ???
+             n1: 472 0x1FFEFFFD83: ???
+              n0: 472 0x1FFEFFFD86: ???
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 256 0x487D3C4: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 256 0x487D859: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 256 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 256 0x400571E: call_init.part.0 (dl-init.c:74)
+     n1: 256 0x4005823: call_init (dl-init.c:120)
+      n1: 256 0x4005823: _dl_init (dl-init.c:121)
+       n1: 256 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+        n1: 256 0x3: ???
+         n1: 256 0x1FFEFFFD6A: ???
+          n1: 256 0x1FFEFFFD7E: ???
+           n1: 256 0x1FFEFFFD83: ???
+            n0: 256 0x1FFEFFFD86: ???
+ n1: 240 0x4932D84: getdelim (iogetdelim.c:65)
+  n2: 240 0x487CD16: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 120 0x487D0AA: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 120 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 120 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 120 0x400571E: call_init.part.0 (dl-init.c:74)
+       n1: 120 0x4005823: call_init (dl-init.c:120)
+        n1: 120 0x4005823: _dl_init (dl-init.c:121)
+         n1: 120 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+          n1: 120 0x3: ???
+           n1: 120 0x1FFEFFFD6A: ???
+            n1: 120 0x1FFEFFFD7E: ???
+             n1: 120 0x1FFEFFFD83: ???
+              n0: 120 0x1FFEFFFD86: ???
+   n1: 120 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 120 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 120 0x400571E: call_init.part.0 (dl-init.c:74)
+      n1: 120 0x4005823: call_init (dl-init.c:120)
+       n1: 120 0x4005823: _dl_init (dl-init.c:121)
+        n1: 120 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 120 0x3: ???
+          n1: 120 0x1FFEFFFD6A: ???
+           n1: 120 0x1FFEFFFD7E: ???
+            n1: 120 0x1FFEFFFD83: ???
+             n0: 120 0x1FFEFFFD86: ???
+ n1: 96 0x48644DC: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 96 0x4862BA0: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 96 0x4862C77: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 96 0x400571E: call_init.part.0 (dl-init.c:74)
+     n1: 96 0x4005823: call_init (dl-init.c:120)
+      n1: 96 0x4005823: _dl_init (dl-init.c:121)
+       n1: 96 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+        n1: 96 0x3: ???
+         n1: 96 0x1FFEFFFD6A: ???
+          n1: 96 0x1FFEFFFD7E: ???
+           n1: 96 0x1FFEFFFD83: ???
+            n0: 96 0x1FFEFFFD86: ???
+ n0: 8 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=592
+mem_heap_B=5640
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=592
+mem_heap_B=9736
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=592
+mem_heap_B=5640
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=592
+mem_heap_B=5168
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=592
+mem_heap_B=5640
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=592
+mem_heap_B=9736
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=592
+mem_heap_B=5640
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=592
+mem_heap_B=5168
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=592
+mem_heap_B=5640
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=592
+mem_heap_B=9736
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n5: 9736 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8192 0x49311B4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 8192 0x4941523: _IO_doallocbuf (genops.c:347)
+   n1: 8192 0x493E883: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 8192 0x4932E0F: getdelim (iogetdelim.c:77)
+     n2: 8192 0x487CD16: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 4096 0x487D0AA: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+       n1: 4096 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+        n1: 4096 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+         n1: 4096 0x400571E: call_init.part.0 (dl-init.c:74)
+          n1: 4096 0x4005823: call_init (dl-init.c:120)
+           n1: 4096 0x4005823: _dl_init (dl-init.c:121)
+            n1: 4096 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+             n1: 4096 0x3: ???
+              n1: 4096 0x1FFEFFFD6A: ???
+               n1: 4096 0x1FFEFFFD7E: ???
+                n1: 4096 0x1FFEFFFD83: ???
+                 n0: 4096 0x1FFEFFFD86: ???
+      n1: 4096 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+       n1: 4096 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+        n1: 4096 0x400571E: call_init.part.0 (dl-init.c:74)
+         n1: 4096 0x4005823: call_init (dl-init.c:120)
+          n1: 4096 0x4005823: _dl_init (dl-init.c:121)
+           n1: 4096 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+            n1: 4096 0x3: ???
+             n1: 4096 0x1FFEFFFD6A: ???
+              n1: 4096 0x1FFEFFFD7E: ???
+               n1: 4096 0x1FFEFFFD83: ???
+                n0: 4096 0x1FFEFFFD86: ???
+ n1: 944 0x4931E7E: __fopen_internal (iofopen.c:65)
+  n1: 944 0x4931E7E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n2: 944 0x487CCE2: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 472 0x487D0AA: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 472 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 472 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+       n1: 472 0x400571E: call_init.part.0 (dl-init.c:74)
+        n1: 472 0x4005823: call_init (dl-init.c:120)
+         n1: 472 0x4005823: _dl_init (dl-init.c:121)
+          n1: 472 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+           n1: 472 0x3: ???
+            n1: 472 0x1FFEFFFD6A: ???
+             n1: 472 0x1FFEFFFD7E: ???
+              n1: 472 0x1FFEFFFD83: ???
+               n0: 472 0x1FFEFFFD86: ???
+    n1: 472 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 472 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 472 0x400571E: call_init.part.0 (dl-init.c:74)
+       n1: 472 0x4005823: call_init (dl-init.c:120)
+        n1: 472 0x4005823: _dl_init (dl-init.c:121)
+         n1: 472 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+          n1: 472 0x3: ???
+           n1: 472 0x1FFEFFFD6A: ???
+            n1: 472 0x1FFEFFFD7E: ???
+             n1: 472 0x1FFEFFFD83: ???
+              n0: 472 0x1FFEFFFD86: ???
+ n1: 256 0x487D3C4: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 256 0x487D859: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 256 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 256 0x400571E: call_init.part.0 (dl-init.c:74)
+     n1: 256 0x4005823: call_init (dl-init.c:120)
+      n1: 256 0x4005823: _dl_init (dl-init.c:121)
+       n1: 256 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+        n1: 256 0x3: ???
+         n1: 256 0x1FFEFFFD6A: ???
+          n1: 256 0x1FFEFFFD7E: ???
+           n1: 256 0x1FFEFFFD83: ???
+            n0: 256 0x1FFEFFFD86: ???
+ n1: 240 0x4932D84: getdelim (iogetdelim.c:65)
+  n2: 240 0x487CD16: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 120 0x487D0AA: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 120 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 120 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 120 0x400571E: call_init.part.0 (dl-init.c:74)
+       n1: 120 0x4005823: call_init (dl-init.c:120)
+        n1: 120 0x4005823: _dl_init (dl-init.c:121)
+         n1: 120 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+          n1: 120 0x3: ???
+           n1: 120 0x1FFEFFFD6A: ???
+            n1: 120 0x1FFEFFFD7E: ???
+             n1: 120 0x1FFEFFFD83: ???
+              n0: 120 0x1FFEFFFD86: ???
+   n1: 120 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 120 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 120 0x400571E: call_init.part.0 (dl-init.c:74)
+      n1: 120 0x4005823: call_init (dl-init.c:120)
+       n1: 120 0x4005823: _dl_init (dl-init.c:121)
+        n1: 120 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 120 0x3: ???
+          n1: 120 0x1FFEFFFD6A: ???
+           n1: 120 0x1FFEFFFD7E: ???
+            n1: 120 0x1FFEFFFD83: ???
+             n0: 120 0x1FFEFFFD86: ???
+ n0: 104 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=592
+mem_heap_B=5640
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=592
+mem_heap_B=5168
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=592
+mem_heap_B=5640
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=592
+mem_heap_B=9736
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=592
+mem_heap_B=5640
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=592
+mem_heap_B=5168
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=592
+mem_heap_B=5640
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=592
+mem_heap_B=9736
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=592
+mem_heap_B=5640
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=592
+mem_heap_B=5168
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=detailed
+n6: 5168 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4096 0x49311B4: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x4941523: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x493E883: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n1: 4096 0x4932E0F: getdelim (iogetdelim.c:77)
+     n2: 4096 0x487CD16: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 4096 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+       n1: 4096 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+        n1: 4096 0x400571E: call_init.part.0 (dl-init.c:74)
+         n1: 4096 0x4005823: call_init (dl-init.c:120)
+          n1: 4096 0x4005823: _dl_init (dl-init.c:121)
+           n1: 4096 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+            n1: 4096 0x3: ???
+             n1: 4096 0x1FFEFFFD6A: ???
+              n1: 4096 0x1FFEFFFD7E: ???
+               n1: 4096 0x1FFEFFFD83: ???
+                n0: 4096 0x1FFEFFFD86: ???
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 472 0x4931E7E: __fopen_internal (iofopen.c:65)
+  n1: 472 0x4931E7E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n2: 472 0x487CCE2: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 472 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 472 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 472 0x400571E: call_init.part.0 (dl-init.c:74)
+       n1: 472 0x4005823: call_init (dl-init.c:120)
+        n1: 472 0x4005823: _dl_init (dl-init.c:121)
+         n1: 472 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+          n1: 472 0x3: ???
+           n1: 472 0x1FFEFFFD6A: ???
+            n1: 472 0x1FFEFFFD7E: ???
+             n1: 472 0x1FFEFFFD83: ???
+              n0: 472 0x1FFEFFFD86: ???
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 256 0x487D3C4: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 256 0x487D859: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 256 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 256 0x400571E: call_init.part.0 (dl-init.c:74)
+     n1: 256 0x4005823: call_init (dl-init.c:120)
+      n1: 256 0x4005823: _dl_init (dl-init.c:121)
+       n1: 256 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+        n1: 256 0x3: ???
+         n1: 256 0x1FFEFFFD6A: ???
+          n1: 256 0x1FFEFFFD7E: ???
+           n1: 256 0x1FFEFFFD83: ???
+            n0: 256 0x1FFEFFFD86: ???
+ n1: 240 0x4932D84: getdelim (iogetdelim.c:65)
+  n2: 240 0x487CD16: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 120 0x487D0AA: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 120 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 120 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+      n1: 120 0x400571E: call_init.part.0 (dl-init.c:74)
+       n1: 120 0x4005823: call_init (dl-init.c:120)
+        n1: 120 0x4005823: _dl_init (dl-init.c:121)
+         n1: 120 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+          n1: 120 0x3: ???
+           n1: 120 0x1FFEFFFD6A: ???
+            n1: 120 0x1FFEFFFD7E: ???
+             n1: 120 0x1FFEFFFD83: ???
+              n0: 120 0x1FFEFFFD86: ???
+   n1: 120 0x487D941: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 120 0x4863DC7: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+     n1: 120 0x400571E: call_init.part.0 (dl-init.c:74)
+      n1: 120 0x4005823: call_init (dl-init.c:120)
+       n1: 120 0x4005823: _dl_init (dl-init.c:121)
+        n1: 120 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+         n1: 120 0x3: ???
+          n1: 120 0x1FFEFFFD6A: ???
+           n1: 120 0x1FFEFFFD7E: ???
+            n1: 120 0x1FFEFFFD83: ???
+             n0: 120 0x1FFEFFFD86: ???
+ n1: 96 0x48644DC: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 96 0x4862BA0: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 96 0x4862C77: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 96 0x400571E: call_init.part.0 (dl-init.c:74)
+     n1: 96 0x4005823: call_init (dl-init.c:120)
+      n1: 96 0x4005823: _dl_init (dl-init.c:121)
+       n1: 96 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+        n1: 96 0x3: ???
+         n1: 96 0x1FFEFFFD6A: ???
+          n1: 96 0x1FFEFFFD7E: ???
+           n1: 96 0x1FFEFFFD83: ???
+            n0: 96 0x1FFEFFFD86: ???
+ n0: 8 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=592
+mem_heap_B=5048
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=592
+mem_heap_B=952
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=592
+mem_heap_B=480
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=592
+mem_heap_B=360
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=600
+mem_heap_B=584
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=602
+mem_heap_B=134218312
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=602
+mem_heap_B=268436040
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=603
+mem_heap_B=402653768
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=603
+mem_heap_B=536871496
+mem_heap_extra_B=136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=4849
+mem_heap_B=536871688
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=detailed
+n2: 536871688 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 536870912 0x1097A3: alloc_mat (in /home/cero/cerock/Caso_2/mm_openmp_blocked)
+  n0: 134217728 0x1092ED: main (in /home/cero/cerock/Caso_2/mm_openmp_blocked)
+  n0: 134217728 0x1092FA: main (in /home/cero/cerock/Caso_2/mm_openmp_blocked)
+  n0: 134217728 0x10930C: main (in /home/cero/cerock/Caso_2/mm_openmp_blocked)
+  n0: 134217728 0x10931C: main (in /home/cero/cerock/Caso_2/mm_openmp_blocked)
+ n0: 776 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=4850
+mem_heap_B=536876744
+mem_heap_extra_B=184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=4852
+mem_heap_B=536876880
+mem_heap_extra_B=200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=4854
+mem_heap_B=536877032
+mem_heap_extra_B=216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=4855
+mem_heap_B=536877040
+mem_heap_extra_B=248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=4857
+mem_heap_B=536877328
+mem_heap_extra_B=256
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=4868
+mem_heap_B=536877616
+mem_heap_extra_B=264
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=4879
+mem_heap_B=536877904
+mem_heap_extra_B=272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=4886
+mem_heap_B=536878192
+mem_heap_extra_B=280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=4892
+mem_heap_B=536878480
+mem_heap_extra_B=288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=4898
+mem_heap_B=536878768
+mem_heap_extra_B=296
+mem_stacks_B=0
+heap_tree=detailed
+n2: 536878768 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 536870912 0x1097A3: alloc_mat (in /home/cero/cerock/Caso_2/mm_openmp_blocked)
+  n0: 134217728 0x1092ED: main (in /home/cero/cerock/Caso_2/mm_openmp_blocked)
+  n0: 134217728 0x1092FA: main (in /home/cero/cerock/Caso_2/mm_openmp_blocked)
+  n0: 134217728 0x10930C: main (in /home/cero/cerock/Caso_2/mm_openmp_blocked)
+  n0: 134217728 0x10931C: main (in /home/cero/cerock/Caso_2/mm_openmp_blocked)
+ n0: 7856 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=61
+#-----------
+time=4909
+mem_heap_B=536879056
+mem_heap_extra_B=304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=4914
+mem_heap_B=536879344
+mem_heap_extra_B=312
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=4942
+mem_heap_B=536879632
+mem_heap_extra_B=320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=4954
+mem_heap_B=536879920
+mem_heap_extra_B=328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=4988
+mem_heap_B=536880208
+mem_heap_extra_B=336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=4993
+mem_heap_B=536880496
+mem_heap_extra_B=344
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=5015
+mem_heap_B=536880784
+mem_heap_extra_B=352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=5034
+mem_heap_B=536881072
+mem_heap_extra_B=360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=5076
+mem_heap_B=536881360
+mem_heap_extra_B=368
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=5095
+mem_heap_B=536881360
+mem_heap_extra_B=368
+mem_stacks_B=0
+heap_tree=peak
+n2: 536881360 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 536870912 0x1097A3: alloc_mat (in /home/cero/cerock/Caso_2/mm_openmp_blocked)
+  n0: 134217728 0x1092ED: main (in /home/cero/cerock/Caso_2/mm_openmp_blocked)
+  n0: 134217728 0x1092FA: main (in /home/cero/cerock/Caso_2/mm_openmp_blocked)
+  n0: 134217728 0x10930C: main (in /home/cero/cerock/Caso_2/mm_openmp_blocked)
+  n0: 134217728 0x10931C: main (in /home/cero/cerock/Caso_2/mm_openmp_blocked)
+ n0: 10448 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=71
+#-----------
+time=5095
+mem_heap_B=536881352
+mem_heap_extra_B=336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=5095
+mem_heap_B=536881200
+mem_heap_extra_B=320
+mem_stacks_B=0
+heap_tree=empty

@@ -1,0 +1,7 @@
+host,impl,n,threads,elapsed_s,max_rss_kb,ipc,instructions,cycles,cache_misses,cache_refs,task_clock_ms,gflops
+ASUS-VivoBook,openmp_blocked,2048,1,,,27248353271,27248353271,14754398254,198145713,2909804654,7256.31,4.336
+ASUS-VivoBook,openmp_blocked,2048,8,,,27284321012,27284321012,23897795987,463692590,3685787832,11875.62,16.457
+ASUS-VivoBook,openmp_bt,2048,1,,,26414222698,26414222698,17362490676,47538835,2565250113,6005.74,3.868
+ASUS-VivoBook,openmp_bt,2048,8,,,26543747894,26543747894,36129848945,43634035,3169076086,15195.52,6.512
+ASUS-VivoBook,openmp_blocked,4096,8,26.600,525824,,,,,,,11.286
+# ASUS-VivoBook massif peak heap (bytes) n=4096 t=8: 
