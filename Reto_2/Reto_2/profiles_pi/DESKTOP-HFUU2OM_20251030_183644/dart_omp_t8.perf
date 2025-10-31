@@ -1,0 +1,24 @@
+
+ Performance counter stats for './dart_omp_o2 200000000 8 42':
+
+           1699.29 msec task-clock:u                     #    8.125 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+                84      page-faults:u                    #   49.433 /sec                      
+        3001624714      cycles:u                         #    1.766 GHz                         (84.43%)
+          21221013      stalled-cycles-frontend:u        #    0.71% frontend cycles idle        (85.39%)
+        7178428414      instructions:u                   #    2.39  insn per cycle            
+                                                  #    0.00  stalled cycles per insn     (86.28%)
+         200922990      branches:u                       #  118.240 M/sec                       (86.36%)
+             13813      branch-misses:u                  #    0.01% of all branches             (86.30%)
+           1080295      L1-dcache-loads:u                #  635.735 K/sec                       (86.31%)
+             19650      L1-dcache-load-misses:u          #    1.82% of all L1-dcache accesses   (84.93%)
+   <not supported>      LLC-loads:u                                                           
+   <not supported>      LLC-load-misses:u                                                     
+
+       0.209143894 seconds time elapsed
+
+       1.678042000 seconds user
+       0.008225000 seconds sys
+
+

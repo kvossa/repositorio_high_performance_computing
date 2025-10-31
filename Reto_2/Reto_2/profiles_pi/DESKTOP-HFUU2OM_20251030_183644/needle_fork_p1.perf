@@ -1,0 +1,24 @@
+
+ Performance counter stats for './needle_fork_o2 200000000 1 0.5 1.0 42':
+
+           9547.41 msec task-clock:u                     #    1.019 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+                96      page-faults:u                    #   10.055 /sec                      
+       17720322166      cycles:u                         #    1.856 GHz                         (85.71%)
+        1117240951      stalled-cycles-frontend:u        #    6.30% frontend cycles idle        (85.70%)
+       25455340765      instructions:u                   #    1.44  insn per cycle            
+                                                  #    0.04  stalled cycles per insn     (85.72%)
+        2752372936      branches:u                       #  288.285 M/sec                       (85.69%)
+         193155620      branch-misses:u                  #    7.02% of all branches             (85.75%)
+       12631331716      L1-dcache-loads:u                #    1.323 G/sec                       (85.73%)
+            103470      L1-dcache-load-misses:u          #    0.00% of all L1-dcache accesses   (85.71%)
+   <not supported>      LLC-loads:u                                                           
+   <not supported>      LLC-load-misses:u                                                     
+
+       9.366102041 seconds time elapsed
+
+       9.543902000 seconds user
+       0.004453000 seconds sys
+
+

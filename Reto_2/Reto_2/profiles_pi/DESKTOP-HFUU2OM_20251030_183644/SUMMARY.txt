@@ -1,0 +1,30 @@
+PROFILE SUMMARY - Thu Oct 30 18:39:14 -05 2025
+Host: DESKTOP-HFUU2OM
+DART_N=200000000  NEEDLE_N=200000000
+
+dart_fork_p1 | wall=0:01.48 | instr=7194223504 | cycles=# | ipc=7194223504
+dart_fork_p2 | wall=0:00.74 | instr=7196162956 | cycles=# | ipc=7196162956
+dart_fork_p4 | wall=0:00.37 | instr=7204639164 | cycles=# | ipc=7204639164
+dart_fork_p8 | wall=0:00.19 | instr=7201611953 | cycles=# | ipc=7201611953
+dart_omp_t1 | wall=0:01.38 | instr=7194455299 | cycles=# | ipc=7194455299
+dart_omp_t2 | wall=0:00.70 | instr=7199438031 | cycles=# | ipc=7199438031
+dart_omp_t4 | wall=0:00.36 | instr=7215375702 | cycles=# | ipc=7215375702
+dart_omp_t8 | wall=0:00.19 | instr=7178428414 | cycles=# | ipc=7178428414
+dart_serial | wall=0:01.45 | instr=7194907349 | cycles=# | ipc=7194907349
+dart_threads_t1 | wall=0:02.37 | instr=7199574468 | cycles=# | ipc=7199574468
+dart_threads_t2 | wall=0:00.75 | instr=7194288122 | cycles=# | ipc=7194288122
+dart_threads_t4 | wall=0:00.40 | instr=7195945856 | cycles=# | ipc=7195945856
+dart_threads_t8 | wall=0:00.19 | instr=7183040116 | cycles=# | ipc=7183040116
+needle_fork_p1 | wall=0:08.70 | instr=25455340765 | cycles=# | ipc=25455340765
+needle_fork_p2 | wall=0:04.55 | instr=25445612129 | cycles=# | ipc=25445612129
+needle_fork_p4 | wall=0:02.37 | instr=25443605011 | cycles=# | ipc=25443605011
+needle_fork_p8 | wall=0:01.31 | instr=25445272307 | cycles=# | ipc=25445272307
+needle_omp_t1 | wall=0:09.34 | instr=25462759721 | cycles=# | ipc=25462759721
+needle_omp_t2 | wall=0:05.63 | instr=25445592110 | cycles=# | ipc=25445592110
+needle_omp_t4 | wall=0:02.35 | instr=25430846314 | cycles=# | ipc=25430846314
+needle_omp_t8 | wall=0:01.21 | instr=25460902750 | cycles=# | ipc=25460902750
+needle_serial | wall=0:10.09 | instr=25471594228 | cycles=# | ipc=25471594228
+needle_threads_t1 | wall=0:08.90 | instr=25443787166 | cycles=# | ipc=25443787166
+needle_threads_t2 | wall=0:04.65 | instr=25454457166 | cycles=# | ipc=25454457166
+needle_threads_t4 | wall=0:03.44 | instr=25469164964 | cycles=# | ipc=25469164964
+needle_threads_t8 | wall=0:01.27 | instr=25428012063 | cycles=# | ipc=25428012063

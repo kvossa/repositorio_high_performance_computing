@@ -1,0 +1,24 @@
+
+ Performance counter stats for './dart_serial_o2 200000000 42':
+
+           1551.62 msec task-clock:u                     #    1.027 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+                59      page-faults:u                    #   38.025 /sec                      
+        2837658669      cycles:u                         #    1.829 GHz                         (85.67%)
+          10395663      stalled-cycles-frontend:u        #    0.37% frontend cycles idle        (85.69%)
+        7194907349      instructions:u                   #    2.54  insn per cycle            
+                                                  #    0.00  stalled cycles per insn     (85.67%)
+         199933683      branches:u                       #  128.855 M/sec                       (85.69%)
+             19898      branch-misses:u                  #    0.01% of all branches             (85.68%)
+            551678      L1-dcache-loads:u                #  355.550 K/sec                       (85.71%)
+             12443      L1-dcache-load-misses:u          #    2.26% of all L1-dcache accesses   (85.89%)
+   <not supported>      LLC-loads:u                                                           
+   <not supported>      LLC-load-misses:u                                                     
+
+       1.510296229 seconds time elapsed
+
+       1.549251000 seconds user
+       0.000000000 seconds sys
+
+

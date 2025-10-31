@@ -1,0 +1,24 @@
+
+ Performance counter stats for './needle_threads_o2 200000000 8 0.5 1.0 42':
+
+          10445.36 msec task-clock:u                     #    7.842 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+                91      page-faults:u                    #    8.712 /sec                      
+       18802903610      cycles:u                         #    1.800 GHz                         (85.70%)
+        1385642955      stalled-cycles-frontend:u        #    7.37% frontend cycles idle        (85.55%)
+       25428012063      instructions:u                   #    1.35  insn per cycle            
+                                                  #    0.05  stalled cycles per insn     (85.64%)
+        2749267275      branches:u                       #  263.205 M/sec                       (85.68%)
+         195385033      branch-misses:u                  #    7.11% of all branches             (85.77%)
+       11006568625      L1-dcache-loads:u                #    1.054 G/sec                       (85.80%)
+            257672      L1-dcache-load-misses:u          #    0.00% of all L1-dcache accesses   (85.85%)
+   <not supported>      LLC-loads:u                                                           
+   <not supported>      LLC-load-misses:u                                                     
+
+       1.331951142 seconds time elapsed
+
+      10.418509000 seconds user
+       0.007928000 seconds sys
+
+

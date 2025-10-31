@@ -1,0 +1,24 @@
+
+ Performance counter stats for './dart_fork_o2 200000000 4 42':
+
+           1595.72 msec task-clock:u                     #    4.021 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+               113      page-faults:u                    #   70.815 /sec                      
+        2886879433      cycles:u                         #    1.809 GHz                         (85.39%)
+           6743865      stalled-cycles-frontend:u        #    0.23% frontend cycles idle        (85.48%)
+        7204639164      instructions:u                   #    2.50  insn per cycle            
+                                                  #    0.00  stalled cycles per insn     (85.48%)
+         199907264      branches:u                       #  125.277 M/sec                       (85.64%)
+             13774      branch-misses:u                  #    0.01% of all branches             (86.01%)
+            167778      L1-dcache-loads:u                #  105.143 K/sec                       (86.05%)
+             13019      L1-dcache-load-misses:u          #    7.76% of all L1-dcache accesses   (85.95%)
+   <not supported>      LLC-loads:u                                                           
+   <not supported>      LLC-load-misses:u                                                     
+
+       0.396865359 seconds time elapsed
+
+       1.587311000 seconds user
+       0.009602000 seconds sys
+
+

@@ -1,0 +1,24 @@
+
+ Performance counter stats for './dart_threads_o2 200000000 4 42':
+
+           1581.61 msec task-clock:u                     #    3.972 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+                68      page-faults:u                    #   42.994 /sec                      
+        2895222345      cycles:u                         #    1.831 GHz                         (85.59%)
+           6747381      stalled-cycles-frontend:u        #    0.23% frontend cycles idle        (85.64%)
+        7195945856      instructions:u                   #    2.49  insn per cycle            
+                                                  #    0.00  stalled cycles per insn     (85.64%)
+         199810590      branches:u                       #  126.333 M/sec                       (85.63%)
+             15083      branch-misses:u                  #    0.01% of all branches             (85.78%)
+            164981      L1-dcache-loads:u                #  104.312 K/sec                       (85.92%)
+             10968      L1-dcache-load-misses:u          #    6.65% of all L1-dcache accesses   (85.80%)
+   <not supported>      LLC-loads:u                                                           
+   <not supported>      LLC-load-misses:u                                                     
+
+       0.398162085 seconds time elapsed
+
+       1.566364000 seconds user
+       0.008053000 seconds sys
+
+

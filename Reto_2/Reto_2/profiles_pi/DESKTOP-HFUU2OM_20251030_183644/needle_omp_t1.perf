@@ -1,0 +1,24 @@
+
+ Performance counter stats for './needle_omp_o2 200000000 1 0.5 1.0 42':
+
+           9580.58 msec task-clock:u                     #    1.032 CPUs utilized             
+                 0      context-switches:u               #    0.000 /sec                      
+                 0      cpu-migrations:u                 #    0.000 /sec                      
+                80      page-faults:u                    #    8.350 /sec                      
+       17744068136      cycles:u                         #    1.852 GHz                         (85.70%)
+        1063960028      stalled-cycles-frontend:u        #    6.00% frontend cycles idle        (85.69%)
+       25462759721      instructions:u                   #    1.44  insn per cycle            
+                                                  #    0.04  stalled cycles per insn     (85.70%)
+        2749992789      branches:u                       #  287.038 M/sec                       (85.74%)
+         193453867      branch-misses:u                  #    7.03% of all branches             (85.73%)
+       12674315886      L1-dcache-loads:u                #    1.323 G/sec                       (85.73%)
+            120569      L1-dcache-load-misses:u          #    0.00% of all L1-dcache accesses   (85.70%)
+   <not supported>      LLC-loads:u                                                           
+   <not supported>      LLC-load-misses:u                                                     
+
+       9.285450455 seconds time elapsed
+
+       9.578600000 seconds user
+       0.004128000 seconds sys
+
+
