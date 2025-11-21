@@ -5,8 +5,6 @@
  * usando paralelismo con MPI distribuyendo filas de la matriz A
  * entre múltiples procesos.
  * 
- * Autor: [Tu nombre]
- * Fecha: Noviembre 2024
  */
 
 #include <mpi.h>
